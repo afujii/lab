@@ -1,0 +1,2426 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .	
+@prefix bibo: <http://bibliographic-ontology.org/bibo/> .	
+@prefix dc: <http://purl.org/dc/terms/> .	
+@prefix dcterms: <http://purl.org/dc/elements/1.1/> .	
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .	
+@prefix karuta: <https://github.com/tnanako/karutalod#> .	
+<>
+      cc:attributionName "Nanako Takahashi"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_001>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_001"@ja ;
+      karuta:text "秋の田の かりほの庵の 苫をあらみ わが衣手は 露にぬれつつ"@ja ;
+      karuta:historicalTranscription "あきのたの かりほのいほの とまをあらみ　わがころもでは つゆにぬれつつ"@ja ;
+      karuta:romanTranscription "Aki no ta no Kari ho no iho no Toma wo arami Waga koromode wa Tsuyu ni nure-tsutsu."@en ;
+      dc:creator "天智天皇"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_001> ;
+      bibo:number "1"@ja ;
+      karuta:textOfYomi "秋の田のかりほの庵の苫をあらみ わが衣手は露にぬれつつ"@ja ;
+      karuta:textOfTori "わかころもてはつゆにぬれつつ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_001.jpg> ;
+      karuta:uniqueSyllable "あきの"@ja ;
+      karuta:firstHalf "秋の田の かりほの庵の 苫をあらみ"@ja ;
+      karuta:transcriptionOfFirstHalf "あきのたの かりおのいおの とまをあらみ"@ja ;
+      karuta:secondHalf "わが衣手は 露にぬれつつ"@ja ;
+      karuta:transcriptionOfSecondHalf "わがころもでは つゆにぬれつつ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後撰集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_001>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_001>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_001>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_001>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_001>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_001>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_001>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_001>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_001> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_001>, <http://linkdata.org/resource/rdf1s8015i#clay_001>, <http://linkdata.org/resource/rdf1s8099i#dickins_001>, <http://linkdata.org/resource/rdf1s8100i#noguchi_001> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_002>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_002"@ja ;
+      karuta:text "春過ぎて 夏来にけらし 白妙の 衣ほすてふ 天の香具山"@ja ;
+      karuta:historicalTranscription "はるすぎて なつきにけらし しろたへの　ころもほすてふ あまのかぐやま"@ja ;
+      karuta:romanTranscription "Haru sugite Natsu ki ni kerashi Shirotae no Koromo hosu teu Ama-no-kagu yama"@en ;
+      dc:creator "持統天皇"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_002> ;
+      bibo:number "2"@ja ;
+      karuta:textOfYomi "春過ぎて夏来にけらし白妙の 衣ほすてふ天の香具山"@ja ;
+      karuta:textOfTori "ころもほすてふあまのかくやま"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_002.jpg> ;
+      karuta:uniqueSyllable "はるす"@ja ;
+      karuta:firstHalf "春過ぎて 夏来にけらし 白妙の"@ja ;
+      karuta:transcriptionOfFirstHalf "はるすぎて なつきにけらし しろたえの　"@ja ;
+      karuta:secondHalf "衣ほすてふ 天の香具山"@ja ;
+      karuta:transcriptionOfSecondHalf "ころもほすちょう あまのかぐやま"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "夏"@ja ;
+      dc:spacial "天の香具山"@ja ;
+      geo:lat "34.495436"^^xsd:float ;
+      geo:long "135.818207"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_002>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_002>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_002>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_002>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_002>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_002>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_002>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_002>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_002> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_002>, <http://linkdata.org/resource/rdf1s8015i#clay_002>, <http://linkdata.org/resource/rdf1s8099i#dickins_002>, <http://linkdata.org/resource/rdf1s8100i#noguchi_002> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_003>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_003"@ja ;
+      karuta:text "足引きの 山鳥の尾の しだり尾の ながながし 夜をひとりかもねむ"@ja ;
+      karuta:historicalTranscription "あしびきの やまどりのおの しだりおの　ながながしよを ひとりかもねむ"@ja ;
+      karuta:romanTranscription "Ashibiki no Yamadori no o no Shidario no Naga-nagashi yo wo Hitori ka mo nemu."@en ;
+      dc:creator "柿本人麿"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_003> ;
+      bibo:number "3"@ja ;
+      karuta:textOfYomi "足引きの山鳥の尾のしだり尾の ながながし夜をひとりかもねむ"@ja ;
+      karuta:textOfTori "なかなかしよをひとりかもねん"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_003.jpg> ;
+      karuta:uniqueSyllable "あし"@ja ;
+      karuta:firstHalf "足引きの 山鳥の尾の しだり尾の"@ja ;
+      karuta:transcriptionOfFirstHalf "あしびきの やまどりのおの しだりおの　"@ja ;
+      karuta:secondHalf "ながながし 夜をひとりかもねむ"@ja ;
+      karuta:transcriptionOfSecondHalf "ながながしよを ひとりかもねん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_003>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_003>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_003>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_003>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_003>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_003>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_003>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_003>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_003> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_003>, <http://linkdata.org/resource/rdf1s8015i#clay_003>, <http://linkdata.org/resource/rdf1s8099i#dickins_003>, <http://linkdata.org/resource/rdf1s8100i#noguchi_003> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_004>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_004"@ja ;
+      karuta:text "田子の浦に 打出でてみれば 白妙の ふじの高嶺に 雪は降りつつ"@ja ;
+      karuta:historicalTranscription "たごのうらに うちいでてみれば しろたへの　ふじのたかねに ゆきはふりつつ"@ja ;
+      karuta:romanTranscription "Tago no ura ni Uchi-idete mireba Shirotae no Fuji no takane ni Yuki wa furi-tsutsu."@en ;
+      dc:creator "山部赤人"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_004> ;
+      bibo:number "4"@ja ;
+      karuta:textOfYomi "田子の浦に打出でてみれば白妙の ふじの高嶺に雪は降りつつ"@ja ;
+      karuta:textOfTori "ふしのたかねにゆきはふりつつ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_004.jpg> ;
+      karuta:uniqueSyllable "たご"@ja ;
+      karuta:firstHalf "田子の浦に 打出でてみれば 白妙の"@ja ;
+      karuta:transcriptionOfFirstHalf "たごのうらに うちいでてみれば しろたえ"@ja ;
+      karuta:secondHalf "ふじの高嶺に 雪は降りつつ"@ja ;
+      karuta:transcriptionOfSecondHalf "ふじのたかねに ゆきはふりつつ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "冬"@ja ;
+      dc:spacial "田子の浦 "@ja, " 富士山"@ja ;
+      geo:lat "35.135324"^^xsd:float ;
+      geo:long "138.695354"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_004>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_004>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_004>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_004>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_004>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_004>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_004>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_004>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_004> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_004>, <http://linkdata.org/resource/rdf1s8015i#clay_004>, <http://linkdata.org/resource/rdf1s8099i#dickins_004>, <http://linkdata.org/resource/rdf1s8100i#noguchi_004> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_005>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_005"@ja ;
+      karuta:text "奥山に 紅葉ふみ分け なく鹿の 聲きく時ぞ 秋は悲しき"@ja ;
+      karuta:historicalTranscription "おくやまに もみぢふみわけ なくしかの　こゑきくときぞ あきはかなしき"@ja ;
+      karuta:romanTranscription "Oku yama ni Momiji fumi wake Naku shika no Koe kiku toki zo Aki wa kanashiki."@en ;
+      dc:creator "猿丸大夫"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_005> ;
+      bibo:number "5"@ja ;
+      karuta:textOfYomi "奥山に紅葉ふみ分けなく鹿の 聲きく時ぞ秋は悲しき"@ja ;
+      karuta:textOfTori "こえきくときそあきはかなしき"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_005.jpg> ;
+      karuta:uniqueSyllable "おく"@ja ;
+      karuta:firstHalf "奥山に 紅葉ふみ分け なく鹿の"@ja ;
+      karuta:transcriptionOfFirstHalf "おくやまに もみじふみわけ なくしかの　"@ja ;
+      karuta:secondHalf "聲きく時ぞ 秋は悲しき"@ja ;
+      karuta:transcriptionOfSecondHalf "こえきくときぞ あきはかなしき"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_005>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_005>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_005>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_005>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_005>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_005>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_005>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_005>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_005> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_005>, <http://linkdata.org/resource/rdf1s8015i#clay_005>, <http://linkdata.org/resource/rdf1s8099i#dickins_005>, <http://linkdata.org/resource/rdf1s8100i#noguchi_005> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_006>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_006"@ja ;
+      karuta:text "かさゝぎの 渡せる橋に おく霜の しろきを見れば 夜ぞふけにける"@ja ;
+      karuta:historicalTranscription "かささぎの わたせるはしに おくしもの　しろきをみれば よぞふけにける"@ja ;
+      karuta:romanTranscription "Kasasagi no Wataseru hashi ni Oku shimo no Shiroki wo mireba Yo zo fuke ni keru."@en ;
+      dc:creator "中納言家持"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_006> ;
+      bibo:number "6"@ja ;
+      karuta:textOfYomi "かさゝぎの渡せる橋におく霜の しろきを見れば夜ぞふけにける"@ja ;
+      karuta:textOfTori "しろきをみれはよそふけにける"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_006.jpg> ;
+      karuta:uniqueSyllable "かさ"@ja ;
+      karuta:firstHalf "かさゝぎの 渡せる橋に おく霜の"@ja ;
+      karuta:transcriptionOfFirstHalf "かささぎの わたせるはしに おくしもの　"@ja ;
+      karuta:secondHalf "しろきを見れば 夜ぞふけにける"@ja ;
+      karuta:transcriptionOfSecondHalf "しろきをみれば よぞふけにける"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "冬"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_006>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_006>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_006>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_006>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_006>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_006>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_006>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_006>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_006> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_006>, <http://linkdata.org/resource/rdf1s8015i#clay_006>, <http://linkdata.org/resource/rdf1s8099i#dickins_006>, <http://linkdata.org/resource/rdf1s8100i#noguchi_006> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_007>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_007"@ja ;
+      karuta:text "天の原 ふりさけ見れば 春日なる みかさの山に 出でし月かも"@ja ;
+      karuta:historicalTranscription "あまのはら ふりさけみれば かすがなる　みかさのやまに いでしつきかも"@ja ;
+      karuta:romanTranscription "Ama no hara Furisake-mireba Kasuga naru Mikasa no yama ni Ideshi tsuki kamo."@en ;
+      dc:creator "安部仲麻呂"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_007> ;
+      bibo:number "7"@ja ;
+      karuta:textOfYomi "天の原ふりさけ見れば春日なる みかさの山に出でし月かも"@ja ;
+      karuta:textOfTori "みかさのやまにいてしつきかも"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_007.jpg> ;
+      karuta:uniqueSyllable "あまの"@ja ;
+      karuta:firstHalf "天の原 ふりさけ見れば 春日なる"@ja ;
+      karuta:transcriptionOfFirstHalf "あまのはら ふりさけみれば かすがなる　"@ja ;
+      karuta:secondHalf "みかさの山に 出でし月かも"@ja ;
+      karuta:transcriptionOfSecondHalf "みかさのやまに いでしつきかも"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "羇旅"@ja ;
+      dc:spacial "三笠山"@ja ;
+      geo:lat "34.681475"^^xsd:float ;
+      geo:long "135.852626"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_007>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_007>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_007>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_007>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_007>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_007>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_007>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_007>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_007> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_007>, <http://linkdata.org/resource/rdf1s8015i#clay_007>, <http://linkdata.org/resource/rdf1s8099i#dickins_007>, <http://linkdata.org/resource/rdf1s8100i#noguchi_007> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_008>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_008"@ja ;
+      karuta:text "わが庵は 都のたつみ しかぞ住む 世をうぢ山と 人はいふなり"@ja ;
+      karuta:historicalTranscription "わがいほは みやこのたつみ しかぞすむ　よをうぢやまと ひとはいふなり"@ja ;
+      karuta:romanTranscription "Waga iho wa Miyako no tatsumi Shika zo sumu Yo wo Uji yama to Hito wa iu nari."@en ;
+      dc:creator "喜撰法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_008> ;
+      bibo:number "8"@ja ;
+      karuta:textOfYomi "わが庵は都のたつみしかぞ住む 世をうぢ山と人はいふなり"@ja ;
+      karuta:textOfTori "よをうしやまとひとはいふなり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_008.jpg> ;
+      karuta:uniqueSyllable "わがい"@ja ;
+      karuta:firstHalf "わが庵は 都のたつみ しかぞ住む"@ja ;
+      karuta:transcriptionOfFirstHalf "わがいおは みやこのたつみ しかぞすむ　"@ja ;
+      karuta:secondHalf "世をうぢ山と 人はいふなり"@ja ;
+      karuta:transcriptionOfSecondHalf "よをうじやまと ひとはいうなり"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "雑"@ja ;
+      dc:spacial "宇治山"@ja ;
+      geo:lat "34.891574"^^xsd:float ;
+      geo:long "135.8402201"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_008>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_008>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_008>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_008>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_008>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_008>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_008>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_008>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_008> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_008>, <http://linkdata.org/resource/rdf1s8015i#clay_008>, <http://linkdata.org/resource/rdf1s8099i#dickins_008>, <http://linkdata.org/resource/rdf1s8100i#noguchi_008> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_009>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_009"@ja ;
+      karuta:text "花の色は 移りにけりな 徒に 我が身世にふる ながめせしまに"@ja ;
+      karuta:historicalTranscription "はなのいろは うつりにけりな いたづらに　わがみよにふる ながめせしまに"@ja ;
+      karuta:romanTranscription "Hana no iro wa Utsuri ni keri na Itazura ni Waga mi yo ni furu Nagame seshi ma ni."@en ;
+      dc:creator "小野小町"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_009> ;
+      bibo:number "9"@ja ;
+      karuta:textOfYomi "花の色は移りにけりな徒に 我が身世にふるながめせしまに"@ja ;
+      karuta:textOfTori "わかみよにふるなかめせしまに"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_009.jpg> ;
+      karuta:uniqueSyllable "はなの"@ja ;
+      karuta:firstHalf "花の色は 移りにけりな 徒に"@ja ;
+      karuta:transcriptionOfFirstHalf "はなのいろは うつりにけりな いたずらに"@ja ;
+      karuta:secondHalf "我が身世にふる ながめせしまに"@ja ;
+      karuta:transcriptionOfSecondHalf "わがみよにふる ながめせしまに"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "春"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_009>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_009>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_009>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_009>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_009>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_009>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_009>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_009>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_009> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_009>, <http://linkdata.org/resource/rdf1s8015i#clay_009>, <http://linkdata.org/resource/rdf1s8099i#dickins_009>, <http://linkdata.org/resource/rdf1s8100i#noguchi_009> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_010>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_010"@ja ;
+      karuta:text "これや此の 行くも帰るも 別かれては 知るも知らぬも 逢坂の関"@ja ;
+      karuta:historicalTranscription "これやこの ゆくもかへるも わかれては　しるもしらぬも あふさかのせき"@ja ;
+      karuta:romanTranscription "Kore ya kono Yuku mo kaeru mo Wakarete wa Shiru mo shiranu mo Ausaka no seki."@en ;
+      dc:creator "蝉丸"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_010> ;
+      bibo:number "10"@ja ;
+      karuta:textOfYomi "これや此の行くも帰るも別かれては 知るも知らぬも逢坂の関"@ja ;
+      karuta:textOfTori "しるもしらぬもあふさかのせき"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_010.jpg> ;
+      karuta:uniqueSyllable "これ"@ja ;
+      karuta:firstHalf "これや此の 行くも帰るも 別かれては"@ja ;
+      karuta:transcriptionOfFirstHalf "これやこの ゆくもかえるも わかれては　"@ja ;
+      karuta:secondHalf "知るも知らぬも 逢坂の関"@ja ;
+      karuta:transcriptionOfSecondHalf "しるもしらぬも おうさかのせき"@ja ;
+      karuta:bonze "蝉丸"@ja ;
+      dc:source "後撰集"@ja ;
+      dc:subject "雑"@ja ;
+      dc:spacial "逢坂の関"@ja ;
+      geo:lat "34.994218"^^xsd:float ;
+      geo:long "135.85561"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_010>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_010>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_010>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_010>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_010>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_010>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_010>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_010>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_010> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_010>, <http://linkdata.org/resource/rdf1s8015i#clay_010>, <http://linkdata.org/resource/rdf1s8099i#dickins_010>, <http://linkdata.org/resource/rdf1s8100i#noguchi_010> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_011>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_011"@ja ;
+      karuta:text "わたの原 八十島かけて 漕ぎ出でぬと 人にはつげよ あまの釣り舟"@ja ;
+      karuta:historicalTranscription "わたのはら やそしまかけて こぎいでぬと　ひとにはつげよ あまのつりぶね"@ja ;
+      karuta:romanTranscription "Wada no hara Yasoshima kakete Kogi idenu to Hito ni wa tsugeyo Ama no tsuribune."@en ;
+      dc:creator "参議篁"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_011> ;
+      bibo:number "11"@ja ;
+      karuta:textOfYomi "わたの原八十島かけて漕ぎ出でぬと 人にはつげよあまの釣り舟"@ja ;
+      karuta:textOfTori "ひとにはつけよあまのつりふね"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_011.jpg> ;
+      karuta:uniqueSyllable "わたのはらや"@ja ;
+      karuta:firstHalf "わたの原 八十島かけて 漕ぎ出でぬと"@ja ;
+      karuta:transcriptionOfFirstHalf "わたのはら やそしまかけて こぎいでぬと"@ja ;
+      karuta:secondHalf "人にはつげよ あまの釣り舟"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとにはつげよ あまのつりぶね"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "羇旅"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_011>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_011>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_011>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_011>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_011>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_011>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_011>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_011>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_011> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_011>, <http://linkdata.org/resource/rdf1s8015i#clay_011>, <http://linkdata.org/resource/rdf1s8099i#dickins_011>, <http://linkdata.org/resource/rdf1s8100i#noguchi_011> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_012>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_012"@ja ;
+      karuta:text "天つ風 雲のかよひぢ 吹きとぢよ をとめの姿 しばし留めむ"@ja ;
+      karuta:historicalTranscription "あまつかぜ くものかよひぢ ふきとぢよ　をとめのすがた しばしとどめむ"@ja ;
+      karuta:romanTranscription "Amatsu kaze Kumo no kayoiji Fuki tojiyo Otome no sugata Shibashi todomemu."@en ;
+      dc:creator "僧正遍昭"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_012> ;
+      bibo:number "12"@ja ;
+      karuta:textOfYomi "天つ風雲のかよひぢ吹きとぢよ をとめの姿しばし留めむ"@ja ;
+      karuta:textOfTori "をとめのすかたしはしととめむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_012.jpg> ;
+      karuta:uniqueSyllable "あまつ"@ja ;
+      karuta:firstHalf "天つ風 雲のかよひぢ 吹きとぢよ"@ja ;
+      karuta:transcriptionOfFirstHalf "あまつかぜ くものかよいじ ふきとじよ　"@ja ;
+      karuta:secondHalf "をとめの姿 しばし留めむ"@ja ;
+      karuta:transcriptionOfSecondHalf "おとめのすがた しばしとどめん"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_012>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_012>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_012>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_012>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_012>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_012>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_012>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_012>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_012> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_012>, <http://linkdata.org/resource/rdf1s8015i#clay_012>, <http://linkdata.org/resource/rdf1s8099i#dickins_012>, <http://linkdata.org/resource/rdf1s8100i#noguchi_012> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_013>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_013"@ja ;
+      karuta:text "筑波嶺の 峯より落つる みなの川 戀ぞつもりて 淵となりぬる"@ja ;
+      karuta:historicalTranscription "つくばねの みねよりおつる みなのがわ　こひぞつもりて ふちとなりぬる"@ja ;
+      karuta:romanTranscription "Tsukuba ne no Mine yori otsuru Mina no kawa Koi zo tsumorite Fuchi to nari nuru."@en ;
+      dc:creator "陽成院"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_013> ;
+      bibo:number "13"@ja ;
+      karuta:textOfYomi "筑波嶺の峯より落つるみなの川 戀ぞつもりて淵となりぬる"@ja ;
+      karuta:textOfTori "こひそつもりてふちとなりぬる"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_013.jpg> ;
+      karuta:uniqueSyllable "つく"@ja ;
+      karuta:firstHalf "筑波嶺の 峯より落つる みなの川"@ja ;
+      karuta:transcriptionOfFirstHalf "つくばねの みねよりおつる みなのがわ　"@ja ;
+      karuta:secondHalf "戀ぞつもりて 淵となりぬる"@ja ;
+      karuta:transcriptionOfSecondHalf "こいぞつもりて ふちとなりぬる"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後撰集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "筑波山"@ja ;
+      geo:lat "36.225833"^^xsd:float ;
+      geo:long "140.105"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_013>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_013>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_013>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_013>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_013>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_013>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_013>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_013>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_013> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_013>, <http://linkdata.org/resource/rdf1s8015i#clay_013>, <http://linkdata.org/resource/rdf1s8099i#dickins_013>, <http://linkdata.org/resource/rdf1s8100i#noguchi_013> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_014>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_014"@ja ;
+      karuta:text "陸奥の しのぶもぢずり 誰故に みだれ初めにし 我ならなくに"@ja ;
+      karuta:historicalTranscription "みちのくの しのぶもぢずり たれゆゑに　みだれそめにし われならなくに"@ja ;
+      karuta:romanTranscription "Michinoku no Shinobu moji-zuri Tare yue ni Midare-some nishi Ware naranaku ni."@en ;
+      dc:creator "河原左大臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_014> ;
+      bibo:number "14"@ja ;
+      karuta:textOfYomi "陸奥のしのぶもぢずり誰故に みだれ初めにし我ならなくに"@ja ;
+      karuta:textOfTori "みたれそめにしわれならなくに"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_014.jpg> ;
+      karuta:uniqueSyllable "みち"@ja ;
+      karuta:firstHalf "陸奥の しのぶもぢずり 誰故に"@ja ;
+      karuta:transcriptionOfFirstHalf "みちのくの しのぶもじずり たれゆえに　"@ja ;
+      karuta:secondHalf "みだれ初めにし 我ならなくに"@ja ;
+      karuta:transcriptionOfSecondHalf "みだれそめにし われならなくに"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "信夫"@ja ;
+      geo:lat "37.77134"^^xsd:float ;
+      geo:long "140.469014"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_014>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_014>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_014>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_014>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_014>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_014>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_014>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_014>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_014> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_014>, <http://linkdata.org/resource/rdf1s8015i#clay_014>, <http://linkdata.org/resource/rdf1s8099i#dickins_014>, <http://linkdata.org/resource/rdf1s8100i#noguchi_014> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_015>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_015"@ja ;
+      karuta:text "君がため 春の野に出でて 若菜つむ わが衣手に 雪は降りつつ"@ja ;
+      karuta:historicalTranscription "きみがため はるののにいでて わかなつむ　わがころもでに ゆきはふりつつ"@ja ;
+      karuta:romanTranscription "Kimi ga tame Haru no no ni idete Wakana tsumu Waga koromode ni Yuki wa furi-tsutsu."@en ;
+      dc:creator "光孝天皇"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_015> ;
+      bibo:number "15"@ja ;
+      karuta:textOfYomi "君がため春の野に出でて若菜つむ わが衣手に雪は降りつつ"@ja ;
+      karuta:textOfTori "わかころもてにゆきはふりつつ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_015.jpg> ;
+      karuta:uniqueSyllable "きまがためは"@ja ;
+      karuta:firstHalf "君がため 春の野に出でて 若菜つむ"@ja ;
+      karuta:transcriptionOfFirstHalf "きみがため はるののにいでて わかなつむ"@ja ;
+      karuta:secondHalf "わが衣手に 雪は降りつつ"@ja ;
+      karuta:transcriptionOfSecondHalf "わがころもでに ゆきはふりつつ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "春"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_015>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_015>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_015>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_015>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_015>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_015>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_015>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_015>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_015> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_015>, <http://linkdata.org/resource/rdf1s8015i#clay_015>, <http://linkdata.org/resource/rdf1s8099i#dickins_015>, <http://linkdata.org/resource/rdf1s8100i#noguchi_015> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_016>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_016"@ja ;
+      karuta:text "立別れ いなばの山の 嶺におふる まつとし聞かば 今帰り来む"@ja ;
+      karuta:historicalTranscription "たちわかれ いなばのやまの みねにおふる　まつとしきかば いまかへりこむ"@ja ;
+      karuta:romanTranscription "Tachi wakare Inaba no yama no Mine ni ōru Matsu to shi kikaba Ima kaeri-komu."@en ;
+      dc:creator "中納言行平"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_016> ;
+      bibo:number "16"@ja ;
+      karuta:textOfYomi "立別れいなばの山の嶺におふる まつとし聞かば今帰り来む"@ja ;
+      karuta:textOfTori "まつとしきかはいまかへりこむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_016.jpg> ;
+      karuta:uniqueSyllable "たち"@ja ;
+      karuta:firstHalf "立別れ いなばの山の 嶺におふる"@ja ;
+      karuta:transcriptionOfFirstHalf "たちわかれ いなばのやまの みねにおうる"@ja ;
+      karuta:secondHalf "まつとし聞かば 今帰り来む"@ja ;
+      karuta:transcriptionOfSecondHalf "まつとしきかば いまかえりこん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "離別"@ja ;
+      dc:spacial "因幡山"@ja ;
+      geo:lat "35.493778"^^xsd:float ;
+      geo:long "134.283507"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_016>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_016>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_016>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_016>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_016>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_016>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_016>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_016>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_016> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_016>, <http://linkdata.org/resource/rdf1s8015i#clay_016>, <http://linkdata.org/resource/rdf1s8099i#dickins_016>, <http://linkdata.org/resource/rdf1s8100i#noguchi_016> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_017>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_017"@ja ;
+      karuta:text "ちはやぶる 神代も聞かず 龍田川 から紅に 水くくるとは"@ja ;
+      karuta:historicalTranscription "ちはやぶる かみよもきかず たつたがは　からくれなゐに みづくくるとは"@ja ;
+      karuta:romanTranscription "Chi haya furu Kami yo mo kikazu Tatsuta gawa Kara kurenai ni Mizu kuguru to wa."@en ;
+      dc:creator "在原業平朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_017> ;
+      bibo:number "17"@ja ;
+      karuta:textOfYomi "ちはやぶる神代も聞かず龍田川 から紅に水くくるとは"@ja ;
+      karuta:textOfTori "からくれなゐにみつくくるとは"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_017.jpg> ;
+      karuta:uniqueSyllable "ちは"@ja ;
+      karuta:firstHalf "ちはやぶる 神代も聞かず 龍田川"@ja ;
+      karuta:transcriptionOfFirstHalf "ちはやぶる かみよもきかず たつたがわ　"@ja ;
+      karuta:secondHalf "から紅に 水くくるとは"@ja ;
+      karuta:transcriptionOfSecondHalf "からくれないに みずくくるとは"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dc:spacial "龍田川"@ja ;
+      geo:lat "34.612665"^^xsd:float ;
+      geo:long "135.714085"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_017>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_017>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_017>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_017>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_017>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_017>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_017>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_017>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_017> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_017>, <http://linkdata.org/resource/rdf1s8015i#clay_017>, <http://linkdata.org/resource/rdf1s8099i#dickins_017>, <http://linkdata.org/resource/rdf1s8100i#noguchi_017> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_018>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_018"@ja ;
+      karuta:text "住の江の 岸に寄る浪 よるさへや 夢の通ひ路 人目よくらむ"@ja ;
+      karuta:historicalTranscription "すみのえの きしによるなみ よるさえや　ゆめのかよひぢ ひとめよくらむ"@ja ;
+      karuta:romanTranscription "Sumi-no-ye no Kishi ni yoru nami Yoru sae ya Yume no kayoi-ji Hito-me yokuramu."@en ;
+      dc:creator "藤原敏行朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_018> ;
+      bibo:number "18"@ja ;
+      karuta:textOfYomi "住の江の岸に寄る浪よるさへや 夢の通ひ路人目よくらむ"@ja ;
+      karuta:textOfTori "ゆめのかよひちひとめよくらむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_018.jpg> ;
+      karuta:uniqueSyllable "す"@ja ;
+      karuta:firstHalf "住の江の 岸に寄る浪 よるさへや"@ja ;
+      karuta:transcriptionOfFirstHalf "すみのえの きしによるなみ よるさえや　"@ja ;
+      karuta:secondHalf "夢の通ひ路 人目よくらむ"@ja ;
+      karuta:transcriptionOfSecondHalf "ゆめのかよいじ ひとめよくらん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "住の江"@ja ;
+      geo:lat "34.605254"^^xsd:float ;
+      geo:long "135.487132"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_018>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_018>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_018>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_018>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_018>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_018>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_018>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_018>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_018> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_018>, <http://linkdata.org/resource/rdf1s8015i#clay_018>, <http://linkdata.org/resource/rdf1s8099i#dickins_018>, <http://linkdata.org/resource/rdf1s8100i#noguchi_018> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_019>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_019"@ja ;
+      karuta:text "難波潟 短き葦の ふしのまも あはで此の世を すぐしてよとや"@ja ;
+      karuta:historicalTranscription "なにはがた みじかきあしの ふしのまも　あはでこのよを すぐしてよとや"@ja ;
+      karuta:romanTranscription "Naniwa gata Mijikaki ashi no shi no ma mo   Awade kono yo wo,   Sugushite yo to ya."@en ;
+      dc:creator "伊勢"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_019> ;
+      bibo:number "19"@ja ;
+      karuta:textOfYomi "難波潟短き葦のふしのまも あはで此の世をすぐしてよとや"@ja ;
+      karuta:textOfTori "あはてこのよをすくしてよとや"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_019.jpg> ;
+      karuta:uniqueSyllable "なにはが"@ja ;
+      karuta:firstHalf "難波潟 短き葦の ふしのまも"@ja ;
+      karuta:transcriptionOfFirstHalf "なにわがた みじかきあしの ふしのまも　"@ja ;
+      karuta:secondHalf "あはで此の世を すぐしてよとや"@ja ;
+      karuta:transcriptionOfSecondHalf "あわでこのよを すぐしてよとや"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "難波潟"@ja ;
+      geo:lat "34.689705"^^xsd:float ;
+      geo:long "135.504854"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_019>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_019>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_019>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_019>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_019>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_019>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_019>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_019>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_019> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_019>, <http://linkdata.org/resource/rdf1s8015i#clay_019>, <http://linkdata.org/resource/rdf1s8099i#dickins_019>, <http://linkdata.org/resource/rdf1s8100i#noguchi_019> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_020>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_020"@ja ;
+      karuta:text "侘びぬれば 今はた同じ 難波なる 身をつくしても 逢はむとぞ思ふ"@ja ;
+      karuta:historicalTranscription "わびぬれば いまはたおなじ なにわなる　みをつくしても あわんとぞおもう"@ja ;
+      karuta:romanTranscription "Wabi nureba Ima hata onaji Naniwa naru Mi wo tsukushite mo Awamu to zo omou."@en ;
+      dc:creator "元良親王"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_020> ;
+      bibo:number "20"@ja ;
+      karuta:textOfYomi "侘びぬれば今はた同じ難波なる 身をつくしても逢はむとぞ思ふ"@ja ;
+      karuta:textOfTori "みをつくしてもあわむとそおもふ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_020.jpg> ;
+      karuta:uniqueSyllable "わび"@ja ;
+      karuta:firstHalf "侘びぬれば 今はた同じ 難波なる"@ja ;
+      karuta:transcriptionOfFirstHalf "わびぬれば いまはたおなじ なにわなる　"@ja ;
+      karuta:secondHalf "身をつくしても 逢はむとぞ思ふ"@ja ;
+      karuta:transcriptionOfSecondHalf "みをつくしても あわんとぞおもう"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後撰集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "難波"@ja ;
+      geo:lat "34.687077"^^xsd:float ;
+      geo:long "135.512528"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_020>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_020>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_020>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_020>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_020>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_020>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_020>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_020>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_020> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_020>, <http://linkdata.org/resource/rdf1s8015i#clay_020>, <http://linkdata.org/resource/rdf1s8099i#dickins_020>, <http://linkdata.org/resource/rdf1s8100i#noguchi_020> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_021>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_021"@ja ;
+      karuta:text "今来むと  いひしばかりに 長月の 有明の月を 待ち出でつるかな"@ja ;
+      karuta:historicalTranscription "いまこむと いひしばかりに ながつきの　ありあけのつきを まちいでつるかな"@ja ;
+      karuta:romanTranscription "Ima kon to Iishi bakari ni Naga-tsuki no Ariake no tsuki Wo machi izuru kana."@en ;
+      dc:creator "素性法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_021> ;
+      bibo:number "21"@ja ;
+      karuta:textOfYomi "今来むといひしばかりに長月の 有明の月を待ち出でつるかな"@ja ;
+      karuta:textOfTori "ありあけのつきをまちいてつるかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_021.jpg> ;
+      karuta:uniqueSyllable "いまこ"@ja ;
+      karuta:firstHalf "今来むと  いひしばかりに 長月の"@ja ;
+      karuta:transcriptionOfFirstHalf "いまこんと いいしばかりに ながつきの　"@ja ;
+      karuta:secondHalf "有明の月を 待ち出でつるかな"@ja ;
+      karuta:transcriptionOfSecondHalf "ありあけのつきを まちいでつるかな"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_021>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_021>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_021>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_021>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_021>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_021>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_021>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_021>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_021> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_021>, <http://linkdata.org/resource/rdf1s8015i#clay_021>, <http://linkdata.org/resource/rdf1s8099i#dickins_021>, <http://linkdata.org/resource/rdf1s8100i#noguchi_021> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_022>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_022"@ja ;
+      karuta:text "吹くからに 秋の草木の しをるれば むべ山風を あらしといふらむ"@ja ;
+      karuta:historicalTranscription "ふくからに あきのくさきの しをるれば　むべやまかぜを あらしといふらむ"@ja ;
+      karuta:romanTranscription "Fuku kara ni Aki no kusa ki no Shiborureba Mube yama kaze wo Arashi to iuramu."@en ;
+      dc:creator "文屋康秀"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_022> ;
+      bibo:number "22"@ja ;
+      karuta:textOfYomi "吹くからに秋の草木のしをるれば むべ山風をあらしといふらむ"@ja ;
+      karuta:textOfTori "むへやまかせをあらしといふらん"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_022.jpg> ;
+      karuta:uniqueSyllable "ふ"@ja ;
+      karuta:firstHalf "吹くからに 秋の草木の しをるれば"@ja ;
+      karuta:transcriptionOfFirstHalf "ふくからに あきのくさきの しおるれば　"@ja ;
+      karuta:secondHalf "むべ山風を あらしといふらむ"@ja ;
+      karuta:transcriptionOfSecondHalf "むべやまかぜを あらしというらん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_022>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_022>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_022>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_022>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_022>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_022>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_022>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_022>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_022> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_022>, <http://linkdata.org/resource/rdf1s8015i#clay_022>, <http://linkdata.org/resource/rdf1s8099i#dickins_022>, <http://linkdata.org/resource/rdf1s8100i#noguchi_022> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_023>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_023"@ja ;
+      karuta:text "月見れば 千々に物こそ 悲しけれ わが身ひとつの 秋にはあらねど"@ja ;
+      karuta:historicalTranscription "つきみれば ちゞにものこそ かなしけれ　わがみひとつの あきにはあらねど"@ja ;
+      karuta:romanTranscription "Tsuki mireba Chiji ni mono koso Kanashi kere Waga mi hitotsu no Aki ni wa aranedo."@en ;
+      dc:creator "大江千里"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_023> ;
+      bibo:number "23"@ja ;
+      karuta:textOfYomi "月見れば千々に物こそ悲しけれ わが身ひとつの秋にはあらねど"@ja ;
+      karuta:textOfTori "わかみひとつのあきにはあらねと"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_023.jpg> ;
+      karuta:uniqueSyllable "つき"@ja ;
+      karuta:firstHalf "月見れば 千々に物こそ 悲しけれ"@ja ;
+      karuta:transcriptionOfFirstHalf "つきみれば ちぢにものこそ かなしけれ　"@ja ;
+      karuta:secondHalf "わが身ひとつの 秋にはあらねど"@ja ;
+      karuta:transcriptionOfSecondHalf "わがみひとつの あきにはあらねど"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_023>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_023>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_023>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_023>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_023>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_023>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_023>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_023>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_023> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_023>, <http://linkdata.org/resource/rdf1s8015i#clay_023>, <http://linkdata.org/resource/rdf1s8099i#dickins_023>, <http://linkdata.org/resource/rdf1s8100i#noguchi_023> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_024>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_024"@ja ;
+      karuta:text "此の度は 幣もとりあへず 手向山 紅葉の錦 神のまにまに"@ja ;
+      karuta:historicalTranscription "このたびは ぬさもとりあへず たむけやま　もみぢのにしき かみのまにまに"@ja ;
+      karuta:romanTranscription "Kono tabi wa Nusa mo tori-aezu Tamuke-yama Momiji no nishiki Kami no mani-mani."@en ;
+      dc:creator "菅家"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_024> ;
+      bibo:number "24"@ja ;
+      karuta:textOfYomi "此の度は幣もとりあへず手向山 紅葉の錦神のまにまに"@ja ;
+      karuta:textOfTori "もみちのにしきかみのまにまに"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_024.jpg> ;
+      karuta:uniqueSyllable "この"@ja ;
+      karuta:firstHalf "此の度は 幣もとりあへず 手向山"@ja ;
+      karuta:transcriptionOfFirstHalf "このたびは ぬさもとりあえず たむけやま"@ja ;
+      karuta:secondHalf "紅葉の錦 神のまにまに"@ja ;
+      karuta:transcriptionOfSecondHalf "もみじのにしき かみのまにまに"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "羇旅"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_024>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_024>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_024>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_024>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_024>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_024>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_024>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_024>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_024> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_024>, <http://linkdata.org/resource/rdf1s8015i#clay_024>, <http://linkdata.org/resource/rdf1s8099i#dickins_024>, <http://linkdata.org/resource/rdf1s8100i#noguchi_024> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_025>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_025"@ja ;
+      karuta:text "名にしおはば 逢坂山の さねかづら 人にしられで くるよしもがな"@ja ;
+      karuta:historicalTranscription "なにしおはば あふさかやまの さねかづら　ひとにしられで くるよしもがな"@ja ;
+      karuta:romanTranscription "Na ni shi owaba Ausaka yama no Sanekazura Hito ni shirarede Kuru yoshi mo gana."@en ;
+      dc:creator "三条右大臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_025> ;
+      bibo:number "25"@ja ;
+      karuta:textOfYomi "名にしおはば逢坂山のさねかづら 人にしられでくるよしもがな"@ja ;
+      karuta:textOfTori "ひとにしられてくるよしもかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_025.jpg> ;
+      karuta:uniqueSyllable "なにし"@ja ;
+      karuta:firstHalf "名にしおはば 逢坂山の さねかづら"@ja ;
+      karuta:transcriptionOfFirstHalf "なにしおわば おうさかやまの さねかずら"@ja ;
+      karuta:secondHalf "人にしられで くるよしもがな"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとにしられで くるよしもがな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後撰集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "逢坂山"@ja ;
+      geo:lat "35.000745"^^xsd:float ;
+      geo:long "135.847938"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_025>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_025>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_025>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_025>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_025>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_025>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_025>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_025>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_025> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_025>, <http://linkdata.org/resource/rdf1s8015i#clay_025>, <http://linkdata.org/resource/rdf1s8099i#dickins_025>, <http://linkdata.org/resource/rdf1s8100i#noguchi_025> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_026>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_026"@ja ;
+      karuta:text "小倉山 峯のもみぢ葉 心あらば 今ひとたびの みゆき待たなむ"@ja ;
+      karuta:historicalTranscription "おぐらやま みねのもみぢば こころあらば　いまひとたびの みゆきまたなむ"@ja ;
+      karuta:romanTranscription "Ogura yama Mine no momiji-ba Kokoro araba Ima hito tabi no Miyuki matanamu."@en ;
+      dc:creator "貞信公"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_026> ;
+      bibo:number "26"@ja ;
+      karuta:textOfYomi "小倉山峯のもみぢ葉心あらば 今ひとたびのみゆき待たなむ"@ja ;
+      karuta:textOfTori "いまひとたひのみゆきまたなむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_026.jpg> ;
+      karuta:uniqueSyllable "おぐ"@ja ;
+      karuta:firstHalf "小倉山 峯のもみぢ葉 心あらば"@ja ;
+      karuta:transcriptionOfFirstHalf "おぐらやま みねのもみじば こころあらば"@ja ;
+      karuta:secondHalf "今ひとたびの みゆき待たなむ"@ja ;
+      karuta:transcriptionOfSecondHalf "いまひとたびの みゆきまたなん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "雑秋"@ja ;
+      dc:spacial "小倉山"@ja ;
+      geo:lat "35.023611"^^xsd:float ;
+      geo:long "135.658889"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_026>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_026>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_026>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_026>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_026>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_026>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_026>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_026>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_026> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_026>, <http://linkdata.org/resource/rdf1s8015i#clay_026>, <http://linkdata.org/resource/rdf1s8099i#dickins_026>, <http://linkdata.org/resource/rdf1s8100i#noguchi_026> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_027>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_027"@ja ;
+      karuta:text "みかの原 わきて流るる 泉川 いつみきとてか 戀しかるらむ"@ja ;
+      karuta:historicalTranscription "みかのはら わきてながるる いづみがは　いつみきとてか こひしかるらむ"@ja ;
+      karuta:romanTranscription "Mika no hara Wakite nagaruru Izumi gawa Itsu miki tote ka Koishi-karuramu."@en ;
+      dc:creator "中納言兼輔"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_027> ;
+      bibo:number "27"@ja ;
+      karuta:textOfYomi "みかの原わきて流るる泉川 いつみきとてか戀しかるらむ"@ja ;
+      karuta:textOfTori "いつみきとてかこひしかるらむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_027.jpg> ;
+      karuta:uniqueSyllable "みかの"@ja ;
+      karuta:firstHalf "みかの原 わきて流るる 泉川"@ja ;
+      karuta:transcriptionOfFirstHalf "みかのはら わきてながるる いづみがわ　"@ja ;
+      karuta:secondHalf "いつみきとてか 戀しかるらむ"@ja ;
+      karuta:transcriptionOfSecondHalf "いつみきとてか こいしかるらん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "瓶原 "@ja, " 泉川"@ja ;
+      geo:lat "34.765613"^^xsd:float ;
+      geo:long "135.862847"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_027>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_027>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_027>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_027>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_027>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_027>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_027>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_027>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_027> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_027>, <http://linkdata.org/resource/rdf1s8015i#clay_027>, <http://linkdata.org/resource/rdf1s8099i#dickins_027>, <http://linkdata.org/resource/rdf1s8100i#noguchi_027> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_028>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_028"@ja ;
+      karuta:text "山里は 冬ぞ寂しさ まさりける 人目も草も かれぬと思へば"@ja ;
+      karuta:historicalTranscription "やまざとは ふゆぞさびしさ まさりける　ひとめもくさも かれぬとおもへば"@ja ;
+      karuta:romanTranscription "Yama zato wa Fuyu zo sabishisa Masari keru Hito-me mo kusa mo Karenu to omoeba."@en ;
+      dc:creator "源宗于朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_028> ;
+      bibo:number "28"@ja ;
+      karuta:textOfYomi "山里は冬ぞ寂しさまさりける 人目も草もかれぬと思へば"@ja ;
+      karuta:textOfTori "ひとめもくさもかれぬとおもへは"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_028.jpg> ;
+      karuta:uniqueSyllable "やまざ"@ja ;
+      karuta:firstHalf "山里は 冬ぞ寂しさ まさりける"@ja ;
+      karuta:transcriptionOfFirstHalf "やまざとは ふゆぞさびしさ まさりける　"@ja ;
+      karuta:secondHalf "人目も草も かれぬと思へば"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとめもくさも かれぬとおもえば"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "冬"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_028>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_028>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_028>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_028>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_028>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_028>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_028>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_028>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_028> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_028>, <http://linkdata.org/resource/rdf1s8015i#clay_028>, <http://linkdata.org/resource/rdf1s8099i#dickins_028>, <http://linkdata.org/resource/rdf1s8100i#noguchi_028> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_029>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_029"@ja ;
+      karuta:text "心あてに 折らばや折らむ 初霜の 置きまどはせる 白菊の花"@ja ;
+      karuta:historicalTranscription "こころあてに おらばやおらむ はつしもの　おきまどはせる しらぎくのはな"@ja ;
+      karuta:romanTranscription "Kokoro-ate ni Orabaya oramu Hatsu shimo no Oki madowaseru Shira giku no hana."@en ;
+      dc:creator "凡河内躬恒"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_029> ;
+      bibo:number "29"@ja ;
+      karuta:textOfYomi "心あてに折らばや折らむ初霜の 置きまどはせる白菊の花"@ja ;
+      karuta:textOfTori "おきまとわせるしらきくのはな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_029.jpg> ;
+      karuta:uniqueSyllable "こころあ"@ja ;
+      karuta:firstHalf "心あてに 折らばや折らむ 初霜の"@ja ;
+      karuta:transcriptionOfFirstHalf "こころあてに おらばやおらん はつしもの"@ja ;
+      karuta:secondHalf "置きまどはせる 白菊の花"@ja ;
+      karuta:transcriptionOfSecondHalf "おきまどわせる しらぎくのはな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_029>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_029>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_029>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_029>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_029>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_029>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_029>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_029>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_029> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_029>, <http://linkdata.org/resource/rdf1s8015i#clay_029>, <http://linkdata.org/resource/rdf1s8099i#dickins_029>, <http://linkdata.org/resource/rdf1s8100i#noguchi_029> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_030>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_030"@ja ;
+      karuta:text "有明の つれなく見えし 別れより 暁ばかり 憂きものはなし"@ja ;
+      karuta:historicalTranscription "ありあけの つれなくみえし わかれより　あかつきばかり うきものはなし"@ja ;
+      karuta:romanTranscription "Ariake no Tsurenaku mieshi Wakare yori Akatsuki bakari Uki-mono wa nashi."@en ;
+      dc:creator "壬生忠岑"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_030> ;
+      bibo:number "30"@ja ;
+      karuta:textOfYomi "有明のつれなく見えし別れより 暁ばかり憂きものはなし"@ja ;
+      karuta:textOfTori "あかつきはかりうきものはなし"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_030.jpg> ;
+      karuta:uniqueSyllable "ありあ"@ja ;
+      karuta:firstHalf "有明の つれなく見えし 別れより"@ja ;
+      karuta:transcriptionOfFirstHalf "ありあけの つれなくみえし わかれより　"@ja ;
+      karuta:secondHalf "暁ばかり 憂きものはなし"@ja ;
+      karuta:transcriptionOfSecondHalf "あかつきばかり うきものはなし"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_030>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_030>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_030>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_030>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_030>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_030>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_037>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_030>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_030> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_030>, <http://linkdata.org/resource/rdf1s8015i#clay_030>, <http://linkdata.org/resource/rdf1s8099i#dickins_030>, <http://linkdata.org/resource/rdf1s8100i#noguchi_030> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_031>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_031"@ja ;
+      karuta:text "朝ぼらけ 有明の月と 見るまでに 吉野の里に 降れる白雪"@ja ;
+      karuta:historicalTranscription "あさぼらけ ありあけのつきと みるまでに　よしののさとに ふれるしらゆき"@ja ;
+      karuta:romanTranscription "Asaborake Ariake no tsuki to Miru made ni Yoshino no sato ni Fureru shira yuki."@en ;
+      dc:creator "坂上是則"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_031> ;
+      bibo:number "31"@ja ;
+      karuta:textOfYomi "朝ぼらけ有明の月と見るまでに 吉野の里に降れる白雪"@ja ;
+      karuta:textOfTori "よしののさとにふれるしらゆき"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_031.jpg> ;
+      karuta:uniqueSyllable "あさぼらけあ"@ja ;
+      karuta:firstHalf "朝ぼらけ 有明の月と 見るまでに"@ja ;
+      karuta:transcriptionOfFirstHalf "あさぼらけ ありあけのつきと みるまでに"@ja ;
+      karuta:secondHalf "吉野の里に 降れる白雪"@ja ;
+      karuta:transcriptionOfSecondHalf "よしののさとに ふれるしらゆき"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "冬"@ja ;
+      dc:spacial "吉野"@ja ;
+      geo:lat "34.36202"^^xsd:float ;
+      geo:long "135.864628"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_031>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_031>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_031>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_031>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_031>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_031>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_030>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_031>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_031> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_031>, <http://linkdata.org/resource/rdf1s8015i#clay_031>, <http://linkdata.org/resource/rdf1s8099i#dickins_031>, <http://linkdata.org/resource/rdf1s8100i#noguchi_031> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_032>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_032"@ja ;
+      karuta:text "山がはに 風のかけたる しがらみは 流れもあへぬ 紅葉なりけり"@ja ;
+      karuta:historicalTranscription "やまがはに かぜのかけたる しがらみは　ながれもあえぬ もみぢなりけり"@ja ;
+      karuta:romanTranscription "Yama gawa ni Kaze no kaketaru Shigarami wa Nagare mo aenu Momiji nari keri."@en ;
+      dc:creator "春道列樹"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_032> ;
+      bibo:number "32"@ja ;
+      karuta:textOfYomi "山がはに風のかけたるしがらみは 流れもあへぬ紅葉なりけり"@ja ;
+      karuta:textOfTori "なかれもあえぬもみちなりけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_032.jpg> ;
+      karuta:uniqueSyllable "やまが"@ja ;
+      karuta:firstHalf "山がはに 風のかけたる しがらみは"@ja ;
+      karuta:transcriptionOfFirstHalf "やまがわに かぜのかけたる しがらみは　"@ja ;
+      karuta:secondHalf "流れもあへぬ 紅葉なりけり"@ja ;
+      karuta:transcriptionOfSecondHalf "ながれもあえぬ もみじなりけり"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_032>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_032>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_032>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_032>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_032>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_032>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_031>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_032>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_032> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_032>, <http://linkdata.org/resource/rdf1s8015i#clay_032>, <http://linkdata.org/resource/rdf1s8099i#dickins_032>, <http://linkdata.org/resource/rdf1s8100i#noguchi_032> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_033>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_033"@ja ;
+      karuta:text "久方の 光のどけき 春の日に しづごころなく 花の散るらむ"@ja ;
+      karuta:historicalTranscription "ひさかたの ひかりのどけき はるのひに　しづごころなく はなのちるらむ"@ja ;
+      karuta:romanTranscription "Hisakata no Hikari nodokeki Haru no hi ni Shizu kokoro, naku Hana no chiruramu."@en ;
+      dc:creator "紀友則"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_033> ;
+      bibo:number "33"@ja ;
+      karuta:textOfYomi "久方の光のどけき春の日に しづごころなく花の散るらむ"@ja ;
+      karuta:textOfTori "しつこころなくはなのちるらむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_033.jpg> ;
+      karuta:uniqueSyllable "ひさ"@ja ;
+      karuta:firstHalf "久方の 光のどけき 春の日に"@ja ;
+      karuta:transcriptionOfFirstHalf "ひさかたの ひかりのどけき はるのひに　"@ja ;
+      karuta:secondHalf "しづごころなく 花の散るらむ"@ja ;
+      karuta:transcriptionOfSecondHalf "しずごころなく はなのちるらん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "春"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_033>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_033>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_033>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_033>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_033>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_033>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_032>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_033>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_033> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_033>, <http://linkdata.org/resource/rdf1s8015i#clay_033>, <http://linkdata.org/resource/rdf1s8099i#dickins_033>, <http://linkdata.org/resource/rdf1s8100i#noguchi_033> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_034>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_034"@ja ;
+      karuta:text "誰をかも 知る人にせむ 高砂の 松も昔の 友ならなくに"@ja ;
+      karuta:historicalTranscription "たれをかも しるひとにせむ たかさごの　まつもむかしの ともならなくに"@ja ;
+      karuta:romanTranscription "Tare wo ka mo Shiru hito nisemu Takasago no Matsu mo mukashi no Tomo nara-naku ni."@en ;
+      dc:creator "藤原興風"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_034> ;
+      bibo:number "34"@ja ;
+      karuta:textOfYomi "誰をかも知る人にせむ高砂の 松も昔の友ならなくに"@ja ;
+      karuta:textOfTori "まつもむかしのともならなくに"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_034.jpg> ;
+      karuta:uniqueSyllable "たれ"@ja ;
+      karuta:firstHalf "誰をかも 知る人にせむ 高砂の"@ja ;
+      karuta:transcriptionOfFirstHalf "たれをかも しるひとにせん たかさごの　"@ja ;
+      karuta:secondHalf "松も昔の 友ならなくに"@ja ;
+      karuta:transcriptionOfSecondHalf "まつもむかしの ともならなくに"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "雑"@ja ;
+      dc:spacial "高砂"@ja ;
+      geo:lat "34.743848"^^xsd:float ;
+      geo:long "134.803546"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_034>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_034>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_034>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_034>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_034>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_034>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_033>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_034>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_034> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_034>, <http://linkdata.org/resource/rdf1s8015i#clay_034>, <http://linkdata.org/resource/rdf1s8099i#dickins_034>, <http://linkdata.org/resource/rdf1s8100i#noguchi_034> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_035>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_035"@ja ;
+      karuta:text "人はいさ 心もしらず ふるさとは 花ぞ昔の 香ににほひける"@ja ;
+      karuta:historicalTranscription "ひとはいさ こころもしらず ふるさとは　はなぞむかしの かににほひける"@ja ;
+      karuta:romanTranscription "Hito wa iza Kokoro mo shirazu Furu sato wa Hana zo mukashi no Ka ni nioi keru."@en ;
+      dc:creator "紀貫之"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_035> ;
+      bibo:number "35"@ja ;
+      karuta:textOfYomi "人はいさ心もしらずふるさとは 花ぞ昔の香ににほひける"@ja ;
+      karuta:textOfTori "はなそむかしのかににほひける"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_035.jpg> ;
+      karuta:uniqueSyllable "ひとは"@ja ;
+      karuta:firstHalf "人はいさ 心もしらず ふるさとは"@ja ;
+      karuta:transcriptionOfFirstHalf "ひとはいさ こころもしらず ふるさとは　"@ja ;
+      karuta:secondHalf "花ぞ昔の 香ににほひける"@ja ;
+      karuta:transcriptionOfSecondHalf "はなぞむかしの かににおいける"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "春"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_035>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_035>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_035>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_035>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_035>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_035>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_034>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_035>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_035> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_035>, <http://linkdata.org/resource/rdf1s8015i#clay_035>, <http://linkdata.org/resource/rdf1s8099i#dickins_035>, <http://linkdata.org/resource/rdf1s8100i#noguchi_035> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_036>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_036"@ja ;
+      karuta:text "夏の夜は まだ宵ながら あけぬるを 雲のいづこに 月宿るらむ"@ja ;
+      karuta:historicalTranscription "なつのよは まだよひながら あけぬるを　くものいづこに つきやどるらむ"@ja ;
+      karuta:romanTranscription "Natsu no yo wa Mada yoi nagara Akenuru wo Kumo no izuko ni Tsuki yadoruramu."@en ;
+      dc:creator "清原深養父"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_036> ;
+      bibo:number "36"@ja ;
+      karuta:textOfYomi "夏の夜はまだ宵ながらあけぬるを 雲のいづこに月宿るらむ"@ja ;
+      karuta:textOfTori "くものいつこにつきやとるらむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_036.jpg> ;
+      karuta:uniqueSyllable "なつ"@ja ;
+      karuta:firstHalf "夏の夜は まだ宵ながら あけぬるを"@ja ;
+      karuta:transcriptionOfFirstHalf "なつのよは まだよいながら あけぬるを　"@ja ;
+      karuta:secondHalf "雲のいづこに 月宿るらむ"@ja ;
+      karuta:transcriptionOfSecondHalf "くものいづこに つきやどるらん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "古今集"@ja ;
+      dc:subject "夏"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_036>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_036>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_036>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_036>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_036>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_036>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_035>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_036>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_036> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_036>, <http://linkdata.org/resource/rdf1s8015i#clay_036>, <http://linkdata.org/resource/rdf1s8099i#dickins_036>, <http://linkdata.org/resource/rdf1s8100i#noguchi_036> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_037>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_037"@ja ;
+      karuta:text "白露に 風の吹きしく 秋の野は つらぬきとめぬ 玉ぞ散りける"@ja ;
+      karuta:historicalTranscription "しらつゆに かぜのふきしく あきののは　つらぬきとめぬ たまぞちりける"@ja ;
+      karuta:romanTranscription "Shira tsuyu ni Kaze no fukishiku Aki no no wa Tsuranuki-tomenu Tama zo chiri keru."@en ;
+      dc:creator "文屋朝康"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_037> ;
+      bibo:number "37"@ja ;
+      karuta:textOfYomi "白露に風の吹きしく秋の野は つらぬきとめぬ玉ぞ散りける"@ja ;
+      karuta:textOfTori "つらぬきとめぬたまそちりける"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_037.jpg> ;
+      karuta:uniqueSyllable "しら"@ja ;
+      karuta:firstHalf "白露に 風の吹きしく 秋の野は"@ja ;
+      karuta:transcriptionOfFirstHalf "しらつゆに かぜのふきしく あきののは　"@ja ;
+      karuta:secondHalf "つらぬきとめぬ 玉ぞ散りける"@ja ;
+      karuta:transcriptionOfSecondHalf "つらぬきとめぬ たまぞちりける"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後撰集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_037>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_037>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_037>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_037>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_037>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_037>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_036>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_037>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_037> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_037>, <http://linkdata.org/resource/rdf1s8015i#clay_037>, <http://linkdata.org/resource/rdf1s8099i#dickins_037>, <http://linkdata.org/resource/rdf1s8100i#noguchi_037> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_038>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_038"@ja ;
+      karuta:text "忘らるる 身をば思はず 誓ひてし 人の命の 惜しくもあるかな"@ja ;
+      karuta:historicalTranscription "わすらるる みをばおもはず ちかひてし　ひとのいのちの をしくもあるかな"@ja ;
+      karuta:romanTranscription "Wasuraruru Mi woba omowazu Chikahite-shi Hito no inochi no Oshiku mo aru kana."@en ;
+      dc:creator "右近"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_038> ;
+      bibo:number "38"@ja ;
+      karuta:textOfYomi "忘らるる身をば思はず誓ひてし 人の命の惜しくもあるかな"@ja ;
+      karuta:textOfTori "ひとのいのちのをしくもあるかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_038.jpg> ;
+      karuta:uniqueSyllable "わすら"@ja ;
+      karuta:firstHalf "忘らるる 身をば思はず 誓ひてし"@ja ;
+      karuta:transcriptionOfFirstHalf "わすらるる みをばおもわず ちかいてし　"@ja ;
+      karuta:secondHalf "人の命の 惜しくもあるかな"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとのいのちの おしくもあるかな"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_038>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_038>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_038>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_038>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_038>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_038>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_038>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_038>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_038> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_038>, <http://linkdata.org/resource/rdf1s8015i#clay_038>, <http://linkdata.org/resource/rdf1s8099i#dickins_038>, <http://linkdata.org/resource/rdf1s8100i#noguchi_038> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_039>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_039"@ja ;
+      karuta:text "浅茅生の 小野の篠原 しのぶれど あまりてなどか 人の戀しき"@ja ;
+      karuta:historicalTranscription "あさぢふの おののしのはら しのぶれど　あまりてなどか ひとのこひしき"@ja ;
+      karuta:romanTranscription "Asajū no Ono no shinowara Shinoburedo Amarite nado ka Hito no koishiki."@en ;
+      dc:creator "参議等"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_039> ;
+      bibo:number "39"@ja ;
+      karuta:textOfYomi "浅茅生の小野の篠原しのれど あまりてなどか人の戀しき"@ja ;
+      karuta:textOfTori "あまりてなとかひとのこひしき"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_039.jpg> ;
+      karuta:uniqueSyllable "あさじ"@ja ;
+      karuta:firstHalf "浅茅生の 小野の篠原 しのぶれど"@ja ;
+      karuta:transcriptionOfFirstHalf "あさじうの おののしのはら しのぶれど　"@ja ;
+      karuta:secondHalf "あまりてなどか 人の戀しき"@ja ;
+      karuta:transcriptionOfSecondHalf "あまりてなどか ひとのこいしき"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後撰集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_039>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_039>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_039>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_039>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_039>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_039>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_039>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_039>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_039> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_039>, <http://linkdata.org/resource/rdf1s8015i#clay_039>, <http://linkdata.org/resource/rdf1s8099i#dickins_039>, <http://linkdata.org/resource/rdf1s8100i#noguchi_039> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_040>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_040"@ja ;
+      karuta:text "忍れど 色に出でにけり 我が戀は ものや思ふと 人の問ふまで"@ja ;
+      karuta:historicalTranscription "しのぶれど いろにいでにけり わがこひは　ものやおもふと ひとのとふまで"@ja ;
+      karuta:romanTranscription "Shinoburedo Iro ni ide ni keri Waga koi wa Mono ya omou to Hito no tou made."@en ;
+      dc:creator "平兼盛"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_040> ;
+      bibo:number "40"@ja ;
+      karuta:textOfYomi "忍れど色に出でにけり我が戀は ものや思ふと人の問ふまで"@ja ;
+      karuta:textOfTori "ものやおもふとひとのとふまで"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_040.jpg> ;
+      karuta:uniqueSyllable "しの"@ja ;
+      karuta:firstHalf "忍れど 色に出でにけり 我が戀は"@ja ;
+      karuta:transcriptionOfFirstHalf "しのぶれど いろにいでにけり わがこいは"@ja ;
+      karuta:secondHalf "ものや思ふと 人の問ふまで"@ja ;
+      karuta:transcriptionOfSecondHalf "ものやおもうと ひとのとうまで"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_040>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_040>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_040>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_040>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_040>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_040>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_040>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_040>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_040> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_040>, <http://linkdata.org/resource/rdf1s8015i#clay_040>, <http://linkdata.org/resource/rdf1s8099i#dickins_040>, <http://linkdata.org/resource/rdf1s8100i#noguchi_040> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_041>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_041"@ja ;
+      karuta:text "戀すてふ わが名はまだき 立ちにけり 人知れずこそ 思ひそめしか"@ja ;
+      karuta:historicalTranscription "こひすてふ わがなはまだき たちにけり　ひとしれずこそ おもひそめしか"@ja ;
+      karuta:romanTranscription "Koi su tefu Waga na wa madaki Tachi ni keri Hito shirezu koso Omoi-someshi ga."@en ;
+      dc:creator "壬生忠見"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_041> ;
+      bibo:number "41"@ja ;
+      karuta:textOfYomi "戀すてふわが名はまだき立ちにけり 人知れずこそ思ひそめしか"@ja ;
+      karuta:textOfTori "ひとしれすこそおもひそめしか"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_041.jpg> ;
+      karuta:uniqueSyllable "こひ"@ja ;
+      karuta:firstHalf "戀すてふ わが名はまだき 立ちにけり"@ja ;
+      karuta:transcriptionOfFirstHalf "こいすちょう わがなはまだき たちにけり"@ja ;
+      karuta:secondHalf "人知れずこそ 思ひそめしか"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとしれずこそ おもいそめしか"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_041>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_041>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_041>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_041>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_041>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_041>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_041>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_041>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_041> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_041>, <http://linkdata.org/resource/rdf1s8015i#clay_041>, <http://linkdata.org/resource/rdf1s8099i#dickins_041>, <http://linkdata.org/resource/rdf1s8100i#noguchi_041> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_042>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_042"@ja ;
+      karuta:text "契りきな かたみに袖を しぼりつつ 末の松山 浪こさじとは"@ja ;
+      karuta:historicalTranscription "ちぎりきな かたみにそでを しぼりつつ　すゑのまつやま なみこさじとは"@ja ;
+      karuta:romanTranscription "Chigiriki na Katami-ni sode wo Shibori-tsutsu Sue no Matsu-Yama Nami kosaji to wa."@en ;
+      dc:creator "清原元輔"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_042> ;
+      bibo:number "42"@ja ;
+      karuta:textOfYomi "契りきなかたみに袖をしぼりつつ 末の松山浪こさじとは"@ja ;
+      karuta:textOfTori "すゑのまつやまなみこさしとは"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_042.jpg> ;
+      karuta:uniqueSyllable "ちぎりき"@ja ;
+      karuta:firstHalf "契りきな かたみに袖を しぼりつつ"@ja ;
+      karuta:transcriptionOfFirstHalf "ちぎりきな かたみにそでを しぼりつつ　"@ja ;
+      karuta:secondHalf "末の松山 浪こさじとは"@ja ;
+      karuta:transcriptionOfSecondHalf "すえのまつやま なみこさじとは"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "末の松山"@ja ;
+      geo:lat "38.287761"^^xsd:float ;
+      geo:long "141.003419"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_042>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_042>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_042>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_042>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_042>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_042>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_042>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_042>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_042> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_042>, <http://linkdata.org/resource/rdf1s8015i#clay_042>, <http://linkdata.org/resource/rdf1s8099i#dickins_042>, <http://linkdata.org/resource/rdf1s8100i#noguchi_042> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_043>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_043"@ja ;
+      karuta:text "逢ひみての 後の心に くらぶれば 昔はものを 思はざりけり"@ja ;
+      karuta:historicalTranscription "あひみての のちのこころに くらぶれば　むかしはものを おもはざりけり"@ja ;
+      karuta:romanTranscription "Ai-mite no Nochi no kokoro ni Kurabureba Mukashi wa mono wo Omowazari keri."@en ;
+      dc:creator "権中納言敦忠"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_043> ;
+      bibo:number "43"@ja ;
+      karuta:textOfYomi "逢ひみての後の心にくらぶれば 昔はものを思はざりけり"@ja ;
+      karuta:textOfTori "むかしはものをおもはさりけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_043.jpg> ;
+      karuta:uniqueSyllable "あひ"@ja ;
+      karuta:firstHalf "逢ひみての 後の心に くらぶれば"@ja ;
+      karuta:transcriptionOfFirstHalf "あいみての のちのこころに くらぶれば　"@ja ;
+      karuta:secondHalf "昔はものを 思はざりけり"@ja ;
+      karuta:transcriptionOfSecondHalf "むかしはものを おもわざりけり"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_043>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_043>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_043>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_043>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_043>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_043>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_043>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_043>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_043> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_043>, <http://linkdata.org/resource/rdf1s8015i#clay_043>, <http://linkdata.org/resource/rdf1s8099i#dickins_043>, <http://linkdata.org/resource/rdf1s8100i#noguchi_043> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_044>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_044"@ja ;
+      karuta:text "逢ふことの 絶えてしなくば なかなかに 人をも身をも 恨みざらまし"@ja ;
+      karuta:historicalTranscription "あふことの たえてしなくば なかなかに　ひとをもみをも うらみざらまし"@ja ;
+      karuta:romanTranscription "Au koto no Taete shi nakuba Naka naka ni Hito wo mo mi wo mo Uramizaramashi."@en ;
+      dc:creator "中納言朝忠"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_044> ;
+      bibo:number "44"@ja ;
+      karuta:textOfYomi "逢ふことの絶えてしなくばなかなかに 人をも身をも恨みざらまし"@ja ;
+      karuta:textOfTori "ひとをもみをもうらみさらまし"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_044.jpg> ;
+      karuta:uniqueSyllable "あふ"@ja ;
+      karuta:firstHalf "逢ふことの 絶えてしなくば なかなかに"@ja ;
+      karuta:transcriptionOfFirstHalf "おうことの たえてしなくば なかなかに　"@ja ;
+      karuta:secondHalf "人をも身をも 恨みざらまし"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとをもみをも うらみざらまし"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_044>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_044>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_044>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_044>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_044>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_044>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_044>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_044>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_044> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_044>, <http://linkdata.org/resource/rdf1s8015i#clay_044>, <http://linkdata.org/resource/rdf1s8099i#dickins_044>, <http://linkdata.org/resource/rdf1s8100i#noguchi_044> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_045>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_045"@ja ;
+      karuta:text "哀れとも いふべき人は おもほえで 身のいたづらに なりぬべきかな"@ja ;
+      karuta:historicalTranscription "あはれとも いふべきひとは おもほえで　みのいたずらに なりぬべきかな"@ja ;
+      karuta:romanTranscription "Aware to mo Iu beki hito wa Omohoede Mi no itazura ni Narinu beki kana."@en ;
+      dc:creator "謙徳公"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_045> ;
+      bibo:number "45"@ja ;
+      karuta:textOfYomi "哀れともいふべき人はおもほえで 身のいたづらになりぬべきかな"@ja ;
+      karuta:textOfTori "みのいたつらになりぬへきかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_045.jpg> ;
+      karuta:uniqueSyllable "あわれ"@ja ;
+      karuta:firstHalf "哀れとも いふべき人は おもほえで"@ja ;
+      karuta:transcriptionOfFirstHalf "あわれとも いうべきひとは おもおえで　"@ja ;
+      karuta:secondHalf "身のいたづらに なりぬべきかな"@ja ;
+      karuta:transcriptionOfSecondHalf "みのいたずらに なりぬべきかな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_045>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_045>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_045>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_045>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_045>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_045>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_045>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_045>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_045> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_045>, <http://linkdata.org/resource/rdf1s8015i#clay_045>, <http://linkdata.org/resource/rdf1s8099i#dickins_045>, <http://linkdata.org/resource/rdf1s8100i#noguchi_045> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_046>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_046"@ja ;
+      karuta:text "由良の戸を わたる舟人 楫をたえ 行方もしらぬ 戀の道かな"@ja ;
+      karuta:historicalTranscription "ゆらのとを わたるふなびと かぢをたえ　ゆくへもしらぬ こひのみちかな"@ja ;
+      karuta:romanTranscription "Yura no to wo Wataru funabito Kaji wo tae Yukue mo shiranu Koi no michi kana."@en ;
+      dc:creator "曽祢好忠"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_046> ;
+      bibo:number "46"@ja ;
+      karuta:textOfYomi "由良の戸をわたる舟人楫をたえ 行方もしらぬ戀の道かな"@ja ;
+      karuta:textOfTori "ゆくへもしらぬこひのみちかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_046.jpg> ;
+      karuta:uniqueSyllable "ゆら"@ja ;
+      karuta:firstHalf "由良の戸を わたる舟人 楫をたえ"@ja ;
+      karuta:transcriptionOfFirstHalf "ゆらのとを わたるふなびと かじをたえ　"@ja ;
+      karuta:secondHalf "行方もしらぬ 戀の道かな"@ja ;
+      karuta:transcriptionOfSecondHalf "ゆくえもしらぬ こいのみちかな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_046>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_046>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_046>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_046>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_046>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_046>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_046>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_046>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_046> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_046>, <http://linkdata.org/resource/rdf1s8015i#clay_046>, <http://linkdata.org/resource/rdf1s8099i#dickins_046>, <http://linkdata.org/resource/rdf1s8100i#noguchi_046> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_047>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_047"@ja ;
+      karuta:text "八重葎 しげれる宿の さびしきに 人こそ見えね 秋はきにけり"@ja ;
+      karuta:historicalTranscription "やえむぐら しげれるやどの さびしきに　ひとこそみえね あきはきにけり"@ja ;
+      karuta:romanTranscription "Yaemugura Shigereru yado no Sabishiki ni Hito koso miene Aki wa ki ni keri."@en ;
+      dc:creator "恵慶法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_047> ;
+      bibo:number "47"@ja ;
+      karuta:textOfYomi "八重葎しげれる宿のさびしきに 人こそ見えね秋はきにけり"@ja ;
+      karuta:textOfTori "ひとこそみえねあきはきにけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_047.jpg> ;
+      karuta:uniqueSyllable "やえ"@ja ;
+      karuta:firstHalf "八重葎 しげれる宿の さびしきに"@ja ;
+      karuta:transcriptionOfFirstHalf "やえむぐら しげれるやどの さびしきに　"@ja ;
+      karuta:secondHalf "人こそ見えね 秋はきにけり"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとこそみえね あきはきにけり"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_047>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_047>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_047>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_047>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_047>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_047>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_048>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_047>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_047> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_047>, <http://linkdata.org/resource/rdf1s8015i#clay_047>, <http://linkdata.org/resource/rdf1s8099i#dickins_047>, <http://linkdata.org/resource/rdf1s8100i#noguchi_047> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_048>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_048"@ja ;
+      karuta:text "風をいたみ 岩うつ浪の おのれのみ 砕けてものを 思ふ頃かな"@ja ;
+      karuta:historicalTranscription "かぜをいたみ いはうつなみの おのれのみ　くだけてものを おもふころかな"@ja ;
+      karuta:romanTranscription "Kaze wo itami Iwa utsu nami no Onore nomi Kudakete mono wo Omou koro kana."@en ;
+      dc:creator "源重之"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_048> ;
+      bibo:number "48"@ja ;
+      karuta:textOfYomi "風をいたみ岩うつ浪のおのれのみ 砕けてものを思ふ頃かな"@ja ;
+      karuta:textOfTori "くたけてものをおもふころかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_048.jpg> ;
+      karuta:uniqueSyllable "かぜを"@ja ;
+      karuta:firstHalf "風をいたみ 岩うつ浪の おのれのみ"@ja ;
+      karuta:transcriptionOfFirstHalf "かぜをいたみ いわうつなみの おのれのみ"@ja ;
+      karuta:secondHalf "砕けてものを 思ふ頃かな"@ja ;
+      karuta:transcriptionOfSecondHalf "くだけてものを おもうころかな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "詞花集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_048>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_048>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_048>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_048>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_048>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_048>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_049>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_048>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_048> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_048>, <http://linkdata.org/resource/rdf1s8015i#clay_048>, <http://linkdata.org/resource/rdf1s8099i#dickins_048>, <http://linkdata.org/resource/rdf1s8100i#noguchi_048> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_049>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_049"@ja ;
+      karuta:text "御垣守 衛士のたく火の 夜はもえ 晝は消えつつ ものをこそ思へ"@ja ;
+      karuta:historicalTranscription "みかきもり ゑじのたくひの よるはもえ　ひるはきえつつ ものをこそおもへ"@ja ;
+      karuta:romanTranscription "Mikaki mori Eji no taku hi no Yo wa moete Hiru wa kie-tsutsu Mono wo koso omoe."@en ;
+      dc:creator "大中臣能宣朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_049> ;
+      bibo:number "49"@ja ;
+      karuta:textOfYomi "御垣守衛士のたく火の夜はもえ 晝は消えつつものをこそ思へ"@ja ;
+      karuta:textOfTori "ひるはきえつつものをこそおもへ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_049.jpg> ;
+      karuta:uniqueSyllable "みかき"@ja ;
+      karuta:firstHalf "御垣守 衛士のたく火の 夜はもえ"@ja ;
+      karuta:transcriptionOfFirstHalf "みかきもり えじのたくひの よるはもえ　"@ja ;
+      karuta:secondHalf "晝は消えつつ ものをこそ思へ"@ja ;
+      karuta:transcriptionOfSecondHalf "ひるはきえつつ ものをこそおもえ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "詞花集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_049>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_049>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_049>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_049>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_049>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_049>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_047>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_049>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_049> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_049>, <http://linkdata.org/resource/rdf1s8015i#clay_049>, <http://linkdata.org/resource/rdf1s8099i#dickins_049>, <http://linkdata.org/resource/rdf1s8100i#noguchi_049> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_050>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_050"@ja ;
+      karuta:text "君がため 惜しからざりし 命さへ 長くもがなと 思ひけるかな"@ja ;
+      karuta:historicalTranscription "きみがため をしからざりし いのちさえ　ながくもがなと おもひけるかな"@ja ;
+      karuta:romanTranscription "Kimi ga tame Oshikarazarishi Inochi sae Nagaku mogana to Omoi keru kana."@en ;
+      dc:creator "藤原義孝"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_050> ;
+      bibo:number "50"@ja ;
+      karuta:textOfYomi "君がため惜しからざりし命さへ 長くもがなと思ひけるかな"@ja ;
+      karuta:textOfTori "なかくもかなとおもひけるかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_050.jpg> ;
+      karuta:uniqueSyllable "きみがためを"@ja ;
+      karuta:firstHalf "君がため 惜しからざりし 命さへ"@ja ;
+      karuta:transcriptionOfFirstHalf "きみがため おしからざりし いのちさえ　"@ja ;
+      karuta:secondHalf "長くもがなと 思ひけるかな"@ja ;
+      karuta:transcriptionOfSecondHalf "ながくもがなと おもいけるかな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_050>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_050>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_050>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_050>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_050>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_050>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_050>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_050>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_050> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_050>, <http://linkdata.org/resource/rdf1s8015i#clay_050>, <http://linkdata.org/resource/rdf1s8099i#dickins_050>, <http://linkdata.org/resource/rdf1s8100i#noguchi_050> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_051>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_051"@ja ;
+      karuta:text "かくとだに えやはいぶきの さしも草 さしも知らじな もゆる思ひを"@ja ;
+      karuta:historicalTranscription "かくとだに えやはいぶきの さしもぐさ　さしもしらじな もゆるおもひを"@ja ;
+      karuta:romanTranscription "Kaku to dani Eyawa Ibuki no Sashi-mogusa Sashimo shiraji na Moyuru omoi wo."@en ;
+      dc:creator "藤原実方朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_051> ;
+      bibo:number "51"@ja ;
+      karuta:textOfYomi "かくとだにえやはいぶきのさしも草 さしも知らじなもゆる思ひを"@ja ;
+      karuta:textOfTori "さしもしらしなもゆるおもひを"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_051.jpg> ;
+      karuta:uniqueSyllable "かく"@ja ;
+      karuta:firstHalf "かくとだに えやはいぶきの さしも草"@ja ;
+      karuta:transcriptionOfFirstHalf "かくとだに えやはいぶきの さしもぐさ　"@ja ;
+      karuta:secondHalf "さしも知らじな もゆる思ひを"@ja ;
+      karuta:transcriptionOfSecondHalf "さしもしらじな もゆるおもいを"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "伊吹山"@ja ;
+      geo:lat "35.417892"^^xsd:float ;
+      geo:long "136.406265"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_051>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_051>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_051>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_051>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_051>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_051>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_051>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_051>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_051> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_051>, <http://linkdata.org/resource/rdf1s8015i#clay_051>, <http://linkdata.org/resource/rdf1s8099i#dickins_051>, <http://linkdata.org/resource/rdf1s8100i#noguchi_051> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_052>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_052"@ja ;
+      karuta:text "明けぬれば くるるものとは 知りながら なほ恨めしき 朝ぼらけかな"@ja ;
+      karuta:historicalTranscription "あけぬれば くるるものとは しりながら　なほうらめしき あさぼらけかな"@ja ;
+      karuta:romanTranscription "Akenureba Kururu mono to wa Shiri nagara Nao urameshiki Asaborake kana."@en ;
+      dc:creator "藤原道信朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_052> ;
+      bibo:number "52"@ja ;
+      karuta:textOfYomi "明けぬればくるるものとは知りながら なほ恨めしき朝ぼらけかな"@ja ;
+      karuta:textOfTori "なほうらめしきあさほらけかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_052.jpg> ;
+      karuta:uniqueSyllable "あけ"@ja ;
+      karuta:firstHalf "明けぬれば くるるものとは 知りながら"@ja ;
+      karuta:transcriptionOfFirstHalf "あけぬれば くるるものとは しりながら　"@ja ;
+      karuta:secondHalf "なほ恨めしき 朝ぼらけかな"@ja ;
+      karuta:transcriptionOfSecondHalf "なおうらめしき あさぼらけかな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_052>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_052>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_052>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_052>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_052>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_052>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_052>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_052>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_052> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_052>, <http://linkdata.org/resource/rdf1s8015i#clay_052>, <http://linkdata.org/resource/rdf1s8099i#dickins_052>, <http://linkdata.org/resource/rdf1s8100i#noguchi_052> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_053>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_053"@ja ;
+      karuta:text "嘆きつつ 独りぬる夜の 明くるまは いかに久しき ものとかは知る"@ja ;
+      karuta:historicalTranscription "なげきつつ ひとりぬるよの あくるまは　いかにひさしき ものとかはしる"@ja ;
+      karuta:romanTranscription "Nageki-tsutsu Hitori nuru yo no Akuru ma wa Ikani hisashiki Mono to kawa shiru."@en ;
+      dc:creator "右大将道綱母"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_053> ;
+      bibo:number "53"@ja ;
+      karuta:textOfYomi "嘆きつつ獨りぬる夜の明くるまは いかに久しきものとかは知る"@ja ;
+      karuta:textOfTori "いかにひさしきものとかはしる"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_053.jpg> ;
+      karuta:uniqueSyllable "なげき"@ja ;
+      karuta:firstHalf "嘆きつつ 独りぬる夜の 明くるまは"@ja ;
+      karuta:transcriptionOfFirstHalf "なげきつつ ひとりぬるよの あくるまは　"@ja ;
+      karuta:secondHalf "いかに久しき ものとかは知る"@ja ;
+      karuta:transcriptionOfSecondHalf "いかにひさしき ものとかはしる"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_053>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_053>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_053>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_053>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_053>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_053>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_053>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_053>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_053> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_053>, <http://linkdata.org/resource/rdf1s8015i#clay_053>, <http://linkdata.org/resource/rdf1s8099i#dickins_053>, <http://linkdata.org/resource/rdf1s8100i#noguchi_053> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_054>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_054"@ja ;
+      karuta:text "忘れじの 行末までは 難ければ 今日を限りの 命ともがな"@ja ;
+      karuta:historicalTranscription "わすれじの ゆくすゑまでは かたければ　けふをかぎりの いのちともがな"@ja ;
+      karuta:romanTranscription "Wasureji no Yukusue made wa Katakereba Kyō wo kagiri no Inochi tomo gana."@en ;
+      dc:creator "儀同三司母"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_054> ;
+      bibo:number "54"@ja ;
+      karuta:textOfYomi "忘れじの行末までは難ければ 今日を限りの命ともがな"@ja ;
+      karuta:textOfTori "けふをかきりのいのちともかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_054.jpg> ;
+      karuta:uniqueSyllable "わすれ"@ja ;
+      karuta:firstHalf "忘れじの 行末までは 難ければ"@ja ;
+      karuta:transcriptionOfFirstHalf "わすれじの ゆくすえまでは かたければ　"@ja ;
+      karuta:secondHalf "今日を限りの 命ともがな"@ja ;
+      karuta:transcriptionOfSecondHalf "きょうをかぎりの いのちともがな"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_054>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_054>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_054>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_054>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_054>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_054>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_054>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_054>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_054> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_054>, <http://linkdata.org/resource/rdf1s8015i#clay_054>, <http://linkdata.org/resource/rdf1s8099i#dickins_054>, <http://linkdata.org/resource/rdf1s8100i#noguchi_054> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_055>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_055"@ja ;
+      karuta:text "瀧の音は たえて久しく なりぬれど 名こそ流れて なほ聞こえけれ"@ja ;
+      karuta:historicalTranscription "たきのおとは たえてひさしく なりぬれど　なこそながれて なほきこえけれ"@ja ;
+      karuta:romanTranscription "Taki no oto wa Taete hisashiku Narinuredo Na koso nagarete Nao kikoe kere."@en ;
+      dc:creator "大納言公任"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_055> ;
+      bibo:number "55"@ja ;
+      karuta:textOfYomi "瀧の音はたえて久しくなりぬれど 名こそ流れてなほ聞こえけれ"@ja ;
+      karuta:textOfTori "なこそなかれてなほきこえけれ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_055.jpg> ;
+      karuta:uniqueSyllable "たき"@ja ;
+      karuta:firstHalf "瀧の音は たえて久しく なりぬれど"@ja ;
+      karuta:transcriptionOfFirstHalf "たきのおとは たえてひさしく なりぬれど"@ja ;
+      karuta:secondHalf "名こそ流れて なほ聞こえけれ"@ja ;
+      karuta:transcriptionOfSecondHalf "なこそながれて なおきこえけれ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_055>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_055>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_055>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_055>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_055>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_055>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_055>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_055>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_055> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_055>, <http://linkdata.org/resource/rdf1s8015i#clay_055>, <http://linkdata.org/resource/rdf1s8099i#dickins_055>, <http://linkdata.org/resource/rdf1s8100i#noguchi_055> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_056>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_056"@ja ;
+      karuta:text "あらざらむ 此の世のほかの 思ひ出に 今一たびの 逢ふこともがな"@ja ;
+      karuta:historicalTranscription "あらざらむ このよのほかの おもひでに　いまひとたびの あふこともがな"@ja ;
+      karuta:romanTranscription "Arazaramu Kono yo no hoka no Omoide ni Ima hito tabi no Au koto mo gana."@en ;
+      dc:creator "和泉式部"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_056> ;
+      bibo:number "56"@ja ;
+      karuta:textOfYomi "あらざらむ此の世のほかの思ひ出に 今一たびの逢ふこともがな"@ja ;
+      karuta:textOfTori "いまひとたひのあふこともかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_056.jpg> ;
+      karuta:uniqueSyllable "あらざ"@ja ;
+      karuta:firstHalf "あらざらむ 此の世のほかの 思ひ出に"@ja ;
+      karuta:transcriptionOfFirstHalf "あらざらん このよのほかの おもいでに　"@ja ;
+      karuta:secondHalf "今一たびの 逢ふこともがな"@ja ;
+      karuta:transcriptionOfSecondHalf "いまひとたびの おうこともがな"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_056>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_056>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_056>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_056>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_056>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_056>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_056>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_056>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_056> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_056>, <http://linkdata.org/resource/rdf1s8015i#clay_056>, <http://linkdata.org/resource/rdf1s8099i#dickins_056>, <http://linkdata.org/resource/rdf1s8100i#noguchi_056> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_057>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_057"@ja ;
+      karuta:text "廻り逢ひて 見しやそれとも わかぬまに 雲がくれにし 夜半の月かな"@ja ;
+      karuta:historicalTranscription "めぐりあひて みしやそれとも わかぬまに　くもがくれにし よはのつきかな"@ja ;
+      karuta:romanTranscription "Meguri-aite Mishi ya sore tomo Wakanu ma ni Kumo gakure nishi Yowa no tsuki kana."@en ;
+      dc:creator "紫式部"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_057> ;
+      bibo:number "57"@ja ;
+      karuta:textOfYomi "廻り逢ひて見しやそれともわかぬまに 雲がくれにし夜半の月かな"@ja ;
+      karuta:textOfTori "くもかくれにしよはのつきかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_057.jpg> ;
+      karuta:uniqueSyllable "め"@ja ;
+      karuta:firstHalf "廻り逢ひて 見しやそれとも わかぬまに"@ja ;
+      karuta:transcriptionOfFirstHalf "めぐりあいて みしやそれとも わかぬまに"@ja ;
+      karuta:secondHalf "雲がくれにし 夜半の月かな"@ja ;
+      karuta:transcriptionOfSecondHalf "くもがくれにし よわのつきかな"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_057>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_057>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_057>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_057>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_057>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_057>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_057>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_057>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_057> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_057>, <http://linkdata.org/resource/rdf1s8015i#clay_057>, <http://linkdata.org/resource/rdf1s8099i#dickins_057>, <http://linkdata.org/resource/rdf1s8100i#noguchi_057> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_058>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_058"@ja ;
+      karuta:text "有馬山 ゐなのささ原 風吹けば いでそよ人を 忘れやはする"@ja ;
+      karuta:historicalTranscription "ありまやま ゐなのささはら かぜふけば　いでそよひとを わすれやはする"@ja ;
+      karuta:romanTranscription "Arima yama Ina no sasawara Kaze fukeba Ide soyo hito wo Wasure yawa suru."@en ;
+      dc:creator "大貮三位"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_058> ;
+      bibo:number "58"@ja ;
+      karuta:textOfYomi "有馬山ゐなのささ原風吹けば いでそよ人を忘れやはする"@ja ;
+      karuta:textOfTori "いてそよひとをわすれやはする"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_058.jpg> ;
+      karuta:uniqueSyllable "ありま"@ja ;
+      karuta:firstHalf "有馬山 ゐなのささ原 風吹けば"@ja ;
+      karuta:transcriptionOfFirstHalf "ありまやま いなのささはら かぜふけば　"@ja ;
+      karuta:secondHalf "いでそよ人を 忘れやはする"@ja ;
+      karuta:transcriptionOfSecondHalf "いでそよひとを わすれやはする"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "有馬山"@ja ;
+      geo:lat "34.794486"^^xsd:float ;
+      geo:long "135.242892"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_058>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_058>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_058>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_058>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_058>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_058>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_058>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_058>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_058> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_058>, <http://linkdata.org/resource/rdf1s8015i#clay_058>, <http://linkdata.org/resource/rdf1s8099i#dickins_058>, <http://linkdata.org/resource/rdf1s8100i#noguchi_058> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_059>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_059"@ja ;
+      karuta:text "やすらはで 寝なましものを 小夜更けて 傾くまでの 月を見しかな"@ja ;
+      karuta:historicalTranscription "やすらはで ねなましものを さよふけて　かたぶくまでの つきをみしかな"@ja ;
+      karuta:romanTranscription "Yasurawade Nenamaji mono wo Sayofukete Katabuku made no Tsuki wo mishi kana."@en ;
+      dc:creator "赤染衛門"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_059> ;
+      bibo:number "59"@ja ;
+      karuta:textOfYomi "やすらはで寝なましものを小夜更けて 傾くまでの月を見しかな"@ja ;
+      karuta:textOfTori "かたふくまてのつきをみしかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_059.jpg> ;
+      karuta:uniqueSyllable "やす"@ja ;
+      karuta:firstHalf "やすらはで 寝なましものを 小夜更けて"@ja ;
+      karuta:transcriptionOfFirstHalf "やすらわで ねなましものを さよふけて　"@ja ;
+      karuta:secondHalf "傾くまでの 月を見しかな"@ja ;
+      karuta:transcriptionOfSecondHalf "かたぶくまでの つきをみしかな"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_059>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_059>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_059>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_059>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_059>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_059>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_059>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_059>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_059> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_059>, <http://linkdata.org/resource/rdf1s8015i#clay_059>, <http://linkdata.org/resource/rdf1s8099i#dickins_059>, <http://linkdata.org/resource/rdf1s8100i#noguchi_059> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_060>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_060"@ja ;
+      karuta:text "大江山 いくのの道の 遠ければ まだふみも見ず 天の橋立"@ja ;
+      karuta:historicalTranscription "おおえやま いくののみちの とほければ　まだふみもみず あまのはしだて"@ja ;
+      karuta:romanTranscription "Ohoye yama Ikuno no michi no Tohokereba Mada fumi mo mizu Ama-no-Hashidate."@en ;
+      dc:creator "小式部内侍"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_060> ;
+      bibo:number "60"@ja ;
+      karuta:textOfYomi "大江山いくのの道の遠ければ まだふみも見ず天の橋立"@ja ;
+      karuta:textOfTori "またふみもみすあまのはしたて"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_060.jpg> ;
+      karuta:uniqueSyllable "おおえ"@ja ;
+      karuta:firstHalf "大江山 いくのの道の 遠ければ"@ja ;
+      karuta:transcriptionOfFirstHalf "おおえやま いくののみちの とおければ　"@ja ;
+      karuta:secondHalf "まだふみも見ず 天の橋立"@ja ;
+      karuta:transcriptionOfSecondHalf "まだふみもみず あまのはしだて"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "金葉集"@ja ;
+      dc:subject "雑"@ja ;
+      dc:spacial "天の橋立 "@ja, " 生野"@ja ;
+      geo:lat "35.569802"^^xsd:float ;
+      geo:long "135.19182"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_060>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_060>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_060>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_060>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_060>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_060>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_060>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_060>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_060> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_060>, <http://linkdata.org/resource/rdf1s8015i#clay_060>, <http://linkdata.org/resource/rdf1s8099i#dickins_060>, <http://linkdata.org/resource/rdf1s8100i#noguchi_060> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_061>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_061"@ja ;
+      karuta:text "古への 奈良の都の 八重ざくら 今日九重に 匂ひぬるかな"@ja ;
+      karuta:historicalTranscription "いにしへの ならのみやこの やへざくら　けふここのえに におひぬるかな"@ja ;
+      karuta:romanTranscription "Inishie no Nara no Miyako no Yaezakura Kyō kokonoe ni Nioi nuru kana."@en ;
+      dc:creator "伊勢大輔"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_061> ;
+      bibo:number "61"@ja ;
+      karuta:textOfYomi "古への奈良の都の八重ざくら 今日九重に匂ひぬるかな"@ja ;
+      karuta:textOfTori "けふここのえににほひぬるかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_061.jpg> ;
+      karuta:uniqueSyllable "いに"@ja ;
+      karuta:firstHalf "古への 奈良の都の 八重ざくら"@ja ;
+      karuta:transcriptionOfFirstHalf "いにしえの ならのみやこの やえざくら　"@ja ;
+      karuta:secondHalf "今日九重に 匂ひぬるかな"@ja ;
+      karuta:transcriptionOfSecondHalf "きょうここのえに においぬるかな"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "詞花集"@ja ;
+      dc:subject "春"@ja ;
+      dc:spacial "奈良"@ja ;
+      geo:lat "34.69071"^^xsd:float ;
+      geo:long "135.794281"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_061>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_061>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_061>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_061>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_061>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_061>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_061>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_061>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_061> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_061>, <http://linkdata.org/resource/rdf1s8015i#clay_061>, <http://linkdata.org/resource/rdf1s8099i#dickins_061>, <http://linkdata.org/resource/rdf1s8100i#noguchi_061> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_062>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_062"@ja ;
+      karuta:text "夜をこめて 鳥のそら音は はかるとも 世に逢坂の 関はゆるさじ"@ja ;
+      karuta:historicalTranscription "よをこめて とりのそらねは はかるとも　よにあふさかの せきはゆるさじ"@ja ;
+      karuta:romanTranscription "Yo wo komete Tori no sorane wa Hakaru tomo Yo ni Ausaka no Seki wa yurusaji."@en ;
+      dc:creator "清少納言"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_062> ;
+      bibo:number "62"@ja ;
+      karuta:textOfYomi "夜をこめて鳥のそら音ははかるとも 世に逢坂の関はゆるさじ"@ja ;
+      karuta:textOfTori "よにあふさかのせきはゆるさし"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_062.jpg> ;
+      karuta:uniqueSyllable "よを"@ja ;
+      karuta:firstHalf "夜をこめて 鳥のそら音は はかるとも"@ja ;
+      karuta:transcriptionOfFirstHalf "よをこめて とりのそらねは はかるとも　"@ja ;
+      karuta:secondHalf "世に逢坂の 関はゆるさじ"@ja ;
+      karuta:transcriptionOfSecondHalf "よにおうさかの せきはゆるさじ"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "雑"@ja ;
+      dc:spacial "逢坂の関"@ja ;
+      geo:lat "34.994218"^^xsd:float ;
+      geo:long "135.85561"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_062>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_062>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_062>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_062>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_062>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_062>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_062>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_062>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_062> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_062>, <http://linkdata.org/resource/rdf1s8015i#clay_062>, <http://linkdata.org/resource/rdf1s8099i#dickins_062>, <http://linkdata.org/resource/rdf1s8100i#noguchi_062> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_063>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_063"@ja ;
+      karuta:text "今はただ 思ひ絶えなむ とばかりを 人づてならで 言ふよしもがな"@ja ;
+      karuta:historicalTranscription "いまはただ おもひたえなむ とばかりを　ひとづてならで いふよしもがな"@ja ;
+      karuta:romanTranscription "Ima wa tada Omoi-taenamu Tobakari wo Hitozute narade Iu yoshi mo gana."@en ;
+      dc:creator "左京大夫道雅"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_063> ;
+      bibo:number "63"@ja ;
+      karuta:textOfYomi "今はただ思ひ絶えなむとばかりを 人づてならで言ふよしもがな"@ja ;
+      karuta:textOfTori "ひとつてならていふよしもかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_063.jpg> ;
+      karuta:uniqueSyllable "いまは"@ja ;
+      karuta:firstHalf "今はただ 思ひ絶えなむ とばかりを"@ja ;
+      karuta:transcriptionOfFirstHalf "いまはただ おもいたえなん とばかりを　"@ja ;
+      karuta:secondHalf "人づてならで 言ふよしもがな"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとづてならで いうよしもがな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_063>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_063>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_063>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_063>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_063>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_063>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_063>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_063>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_063> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_063>, <http://linkdata.org/resource/rdf1s8015i#clay_063>, <http://linkdata.org/resource/rdf1s8099i#dickins_063>, <http://linkdata.org/resource/rdf1s8100i#noguchi_063> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_064>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_064"@ja ;
+      karuta:text "朝ぼらけ 宇治の川霧 絶えだえに あらはれ渡る 瀬々の網代木"@ja ;
+      karuta:historicalTranscription "あさぼらけ うぢのかはぎり たえだえに　あらはれわたる せぜのあじろぎ"@ja ;
+      karuta:romanTranscription "Asaborake Uji no kawagiri Tae-dae ni Araware wataru Seze no ajiro-gi."@en ;
+      dc:creator "権中納言定頼"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_064> ;
+      bibo:number "64"@ja ;
+      karuta:textOfYomi "朝ぼらけ宇治の川霧絶えだえに あらはれ渡る瀬々の網代木"@ja ;
+      karuta:textOfTori "あらはれわたるせせのあしろき"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_064.jpg> ;
+      karuta:uniqueSyllable "あさぼらけう"@ja ;
+      karuta:firstHalf "朝ぼらけ 宇治の川霧 絶えだえに"@ja ;
+      karuta:transcriptionOfFirstHalf "あさぼらけ うじのかわぎり たえだえに　"@ja ;
+      karuta:secondHalf "あらはれ渡る 瀬々の網代木"@ja ;
+      karuta:transcriptionOfSecondHalf "あらわれわたる せぜのあじろぎ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "冬"@ja ;
+      dc:spacial "宇治川"@ja ;
+      geo:lat "34.88951"^^xsd:float ;
+      geo:long "135.809761"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_064>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_064>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_064>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_064>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_064>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_064>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_064>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_064>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_064> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_064>, <http://linkdata.org/resource/rdf1s8015i#clay_064>, <http://linkdata.org/resource/rdf1s8099i#dickins_064>, <http://linkdata.org/resource/rdf1s8100i#noguchi_064> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_065>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_065"@ja ;
+      karuta:text "恨み侘び ほさぬ袖だに あるものを 戀に朽ちなむ 名こそ惜しけれ"@ja ;
+      karuta:historicalTranscription "うらみわび ほさぬそでだに あるものを　こひにくちなむ なこそをしけれ"@ja ;
+      karuta:romanTranscription "Urami wabi Hosanu sode dani Aru mono wo Koi ni kuchinamu Na koso oshikere."@en ;
+      dc:creator "相模"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_065> ;
+      bibo:number "65"@ja ;
+      karuta:textOfYomi "恨み侘びほさぬ袖だにあるものを 戀に朽ちなむ名こそ惜しけれ"@ja ;
+      karuta:textOfTori "こひにくちなむなこそをしけれ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_065.jpg> ;
+      karuta:uniqueSyllable "うら"@ja ;
+      karuta:firstHalf "恨み侘び ほさぬ袖だに あるものを"@ja ;
+      karuta:transcriptionOfFirstHalf "うらみわび ほさぬそでだに あるものを　"@ja ;
+      karuta:secondHalf "戀に朽ちなむ 名こそ惜しけれ"@ja ;
+      karuta:transcriptionOfSecondHalf "こいにくちなん なこそおしけれ"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_065>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_065>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_065>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_065>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_065>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_065>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_065>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_065>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_065> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_065>, <http://linkdata.org/resource/rdf1s8015i#clay_065>, <http://linkdata.org/resource/rdf1s8099i#dickins_065>, <http://linkdata.org/resource/rdf1s8100i#noguchi_065> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_066>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_066"@ja ;
+      karuta:text "諸共に あはれと思へ 山ざくら 花よりほかに 知る人もなし"@ja ;
+      karuta:historicalTranscription "もろともに あはれとおもへ やまざくら　はなよりほかに しるひともなし"@ja ;
+      karuta:romanTranscription "Morotomo ni Aware to omoe Yama zakura Hana yori hoka ni Shiru hito mo nashi."@en ;
+      dc:creator "大僧正行尊"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_066> ;
+      bibo:number "66"@ja ;
+      karuta:textOfYomi "諸共にあはれと思へ山ざくら 花よりほかに知る人もなし"@ja ;
+      karuta:textOfTori "はなよりほかにしるひともなし"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_066.jpg> ;
+      karuta:uniqueSyllable "もろ"@ja ;
+      karuta:firstHalf "諸共に あはれと思へ 山ざくら"@ja ;
+      karuta:transcriptionOfFirstHalf "もろともに あわれとおもえ やまざくら　"@ja ;
+      karuta:secondHalf "花よりほかに 知る人もなし"@ja ;
+      karuta:transcriptionOfSecondHalf "はなよりほかに しるひともなし"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "金葉集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_066>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_066>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_066>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_066>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_066>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_066>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_066>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_066>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_066> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_066>, <http://linkdata.org/resource/rdf1s8015i#clay_066>, <http://linkdata.org/resource/rdf1s8099i#dickins_066>, <http://linkdata.org/resource/rdf1s8100i#noguchi_066> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_067>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_067"@ja ;
+      karuta:text "春の夜の 夢ばかりなる 手枕に かひなく立たむ 名こそ惜しけれ"@ja ;
+      karuta:historicalTranscription "はるのよの ゆめばかりなる たまくらに　かひなくたたむ なこそをしけれ"@ja ;
+      karuta:romanTranscription "Haru no yo no Yume bakari naru Te-makura ni Kainaku tatan Na koso oshi kere."@en ;
+      dc:creator "周防内侍"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_067> ;
+      bibo:number "67"@ja ;
+      karuta:textOfYomi "春の夜の夢ばかりなる手枕に かひなく立たむ名こそ惜しけれ"@ja ;
+      karuta:textOfTori "かひなくたたむなこそをしけれ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_067.jpg> ;
+      karuta:uniqueSyllable "はるの"@ja ;
+      karuta:firstHalf "春の夜の 夢ばかりなる 手枕に"@ja ;
+      karuta:transcriptionOfFirstHalf "はるのよの ゆめばかりなる たまくらに　"@ja ;
+      karuta:secondHalf "かひなく立たむ 名こそ惜しけれ"@ja ;
+      karuta:transcriptionOfSecondHalf "かいなくたたん なこそおしけれ"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_067>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_067>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_067>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_067>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_067>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_067>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_067>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_067>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_067> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_067>, <http://linkdata.org/resource/rdf1s8015i#clay_067>, <http://linkdata.org/resource/rdf1s8099i#dickins_067>, <http://linkdata.org/resource/rdf1s8100i#noguchi_067> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_068>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_068"@ja ;
+      karuta:text "心にも あらで憂世に ながらへば 戀しかるべき 夜半の月かな"@ja ;
+      karuta:historicalTranscription "こころにも あらでうきよに ながらへば　こひしかるべき よはのつきかな"@ja ;
+      karuta:romanTranscription "Kokoro ni mo Arade uki yo ni Nagaraeba Koishikarubeki Yowa no tsuki kana."@en ;
+      dc:creator "三條院"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_068> ;
+      bibo:number "68"@ja ;
+      karuta:textOfYomi "心にもあらで憂世にながらへば 戀しかるべき夜半の月かな"@ja ;
+      karuta:textOfTori "こひしかるへきよはのつきかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_068.jpg> ;
+      karuta:uniqueSyllable "こころに"@ja ;
+      karuta:firstHalf "心にも あらで憂世に ながらへば"@ja ;
+      karuta:transcriptionOfFirstHalf "こころにも あらでうきよに ながらえば　"@ja ;
+      karuta:secondHalf "戀しかるべき 夜半の月かな"@ja ;
+      karuta:transcriptionOfSecondHalf "こいしかるべき よわのつきかな"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_068>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_068>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_068>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_068>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_068>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_068>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_068>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_068>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_068> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_068>, <http://linkdata.org/resource/rdf1s8015i#clay_068>, <http://linkdata.org/resource/rdf1s8099i#dickins_068>, <http://linkdata.org/resource/rdf1s8100i#noguchi_068> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_069>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_069"@ja ;
+      karuta:text "嵐ふく 三室の山の もみぢ葉は 龍田の川の 錦なりけり"@ja ;
+      karuta:historicalTranscription "あらしふく みむろのやまの もみぢばは　たつたのかはの にしきなりけり"@ja ;
+      karuta:romanTranscription "Arashi fuku Mimuro no yama no Momiji-ba wa Tatsuta no kawa no Nishiki nari keri."@en ;
+      dc:creator "能因法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_069> ;
+      bibo:number "69"@ja ;
+      karuta:textOfYomi "嵐ふく三室の山のもみぢ葉は 龍田の川の錦なりけり"@ja ;
+      karuta:textOfTori "たつたのかはのにしきなりけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_069.jpg> ;
+      karuta:uniqueSyllable "あらし"@ja ;
+      karuta:firstHalf "嵐ふく 三室の山の もみぢ葉は"@ja ;
+      karuta:transcriptionOfFirstHalf "あらしふく みむろのやまの もみじばは　"@ja ;
+      karuta:secondHalf "龍田の川の 錦なりけり"@ja ;
+      karuta:transcriptionOfSecondHalf "たつたのかわの にしきなりけり"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "秋"@ja ;
+      dc:spacial "三室山 "@ja, " 龍田川"@ja ;
+      geo:lat "34.600426"^^xsd:float ;
+      geo:long "135.715362"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_069>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_069>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_069>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_069>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_069>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_069>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_069>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_069>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_069> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_069>, <http://linkdata.org/resource/rdf1s8015i#clay_069>, <http://linkdata.org/resource/rdf1s8099i#dickins_069>, <http://linkdata.org/resource/rdf1s8100i#noguchi_069> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_070>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_070"@ja ;
+      karuta:text "寂しさに 宿を立ち出でて 眺むれば いづこも同じ 秋の夕暮"@ja ;
+      karuta:historicalTranscription "さびしさに やどをたちいでて ながむれば　いづこもおなじ あきのゆふぐれ"@ja ;
+      karuta:romanTranscription "Sabishisa ni Yado wo, tachi-idete Nagamureba Izuko mo onaji Aki no yūgure."@en ;
+      dc:creator "良暹法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_070> ;
+      bibo:number "70"@ja ;
+      karuta:textOfYomi "寂しさに宿を立ち出でて眺むれば いづこも同じ秋の夕暮"@ja ;
+      karuta:textOfTori "いつこもおなしあきのゆふくれ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_070.jpg> ;
+      karuta:uniqueSyllable "さ"@ja ;
+      karuta:firstHalf "寂しさに 宿を立ち出でて 眺むれば"@ja ;
+      karuta:transcriptionOfFirstHalf "さびしさに やどをたちいでて ながむれば"@ja ;
+      karuta:secondHalf "いづこも同じ 秋の夕暮"@ja ;
+      karuta:transcriptionOfSecondHalf "いづこもおなじ あきのゆうぐれ"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_070>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_070>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_070>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_070>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_070>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_070>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_070>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_070>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_070> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_070>, <http://linkdata.org/resource/rdf1s8015i#clay_070>, <http://linkdata.org/resource/rdf1s8099i#dickins_070>, <http://linkdata.org/resource/rdf1s8100i#noguchi_070> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_071>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_071"@ja ;
+      karuta:text "夕されば 門田の稲葉 おとづれて あしのまろやに 秋風ぞ吹く"@ja ;
+      karuta:historicalTranscription "ゆふされば かどたのいなば おとづれて　あしのまろやに あきかぜぞふく"@ja ;
+      karuta:romanTranscription "Yūsareba Kado-da no inaba Otozurete Ashi no maroya ni Aki kaze zo fuku."@en ;
+      dc:creator "大納言経信"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_071> ;
+      bibo:number "71"@ja ;
+      karuta:textOfYomi "夕されば門田の稲葉おとづれて あしのまろやに秋風ぞ吹く"@ja ;
+      karuta:textOfTori "あしのまろやにあきかせそふく"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_071.jpg> ;
+      karuta:uniqueSyllable "ゆふ"@ja ;
+      karuta:firstHalf "夕されば 門田の稲葉 おとづれて"@ja ;
+      karuta:transcriptionOfFirstHalf "ゆうされば かどたのいなば おとずれて　"@ja ;
+      karuta:secondHalf "あしのまろやに 秋風ぞ吹く"@ja ;
+      karuta:transcriptionOfSecondHalf "あしのまろやに あきかぜぞふく"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "金葉集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_071>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_071>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_071>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_071>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_071>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_071>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_071>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_071>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_071> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_071>, <http://linkdata.org/resource/rdf1s8015i#clay_071>, <http://linkdata.org/resource/rdf1s8099i#dickins_071>, <http://linkdata.org/resource/rdf1s8100i#noguchi_071> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_072>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_072"@ja ;
+      karuta:text "音に聞く 高師の濱の あだ浪は かけじや袖の ぬれもこそすれ"@ja ;
+      karuta:historicalTranscription "おとにきく たかしのはまの あだなみは　かけじやそでの ぬれもこそすれ"@ja ;
+      karuta:romanTranscription "Oto ni kiku Takashi no hama no Adanami wa Kakeji ya sode no Nure mo koso sure."@en ;
+      dc:creator "祐子内親王家紀伊"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_072> ;
+      bibo:number "72"@ja ;
+      karuta:textOfYomi "音に聞く高師の濱のあだ浪は かけじや袖のぬれもこそすれ"@ja ;
+      karuta:textOfTori "かけしやそでのぬれもこそすれ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_072.jpg> ;
+      karuta:uniqueSyllable "おと"@ja ;
+      karuta:firstHalf "音に聞く 高師の濱の あだ浪は"@ja ;
+      karuta:transcriptionOfFirstHalf "おとにきく たかしのはまの あだなみは　"@ja ;
+      karuta:secondHalf "かけじや袖の ぬれもこそすれ"@ja ;
+      karuta:transcriptionOfSecondHalf "かけじやそでの ぬれもこそすれ"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "金葉集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "高師の浜"@ja ;
+      geo:lat "34.542415"^^xsd:float ;
+      geo:long "135.440453"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_072>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_072>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_072>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_072>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_072>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_072>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_072>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_072>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_072> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_072>, <http://linkdata.org/resource/rdf1s8015i#clay_072>, <http://linkdata.org/resource/rdf1s8099i#dickins_072>, <http://linkdata.org/resource/rdf1s8100i#noguchi_072> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_073>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_073"@ja ;
+      karuta:text "高砂の 尾の上の桜 咲きにけり 外山の霞 立たずもあらなむ"@ja ;
+      karuta:historicalTranscription "たかさごの おのへのさくら さきにけり　とやまのかすみ たたずもあらなむ"@ja ;
+      karuta:romanTranscription "Takasago no Once no zakura Saki ni keri Toyama no kasumi Tatazu mo aranan."@en ;
+      dc:creator "権中納言匡房"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_073> ;
+      bibo:number "73"@ja ;
+      karuta:textOfYomi "高砂の尾の上の桜咲きにけり 外山の霞立たずもあらなむ"@ja ;
+      karuta:textOfTori "とやまのかすみたたすもあらなむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_073.jpg> ;
+      karuta:uniqueSyllable "たか"@ja ;
+      karuta:firstHalf "高砂の 尾の上の桜 咲きにけり"@ja ;
+      karuta:transcriptionOfFirstHalf "たかさごの おのえのさくら さきにけり　"@ja ;
+      karuta:secondHalf "外山の霞 立たずもあらなむ"@ja ;
+      karuta:transcriptionOfSecondHalf "とやまのかすみ たたずもあらなん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "後拾遺集"@ja ;
+      dc:subject "春"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_073>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_073>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_073>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_073>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_073>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_073>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_073>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_073>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_073> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_073>, <http://linkdata.org/resource/rdf1s8015i#clay_073>, <http://linkdata.org/resource/rdf1s8099i#dickins_073>, <http://linkdata.org/resource/rdf1s8100i#noguchi_073> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_074>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_074"@ja ;
+      karuta:text "うかりける 人を初瀬の 山おろし はげしかれとは 祈らぬものを"@ja ;
+      karuta:historicalTranscription "うかりける ひとをはつせの やまおろし　はげしかれとは いのらぬものを"@ja ;
+      karuta:romanTranscription "Ukari keru Hito wo Hatsuse no Yama-oroshi Hageshikare to wa Inoranu mono wo."@en ;
+      dc:creator "源俊頼朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_074> ;
+      bibo:number "74"@ja ;
+      karuta:textOfYomi "うかりける人を初瀬の山おろし はげしかれとは祈らぬものを"@ja ;
+      karuta:textOfTori "はけしかれとはいのらぬものを"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_074.jpg> ;
+      karuta:uniqueSyllable "うか"@ja ;
+      karuta:firstHalf "うかりける 人を初瀬の 山おろし"@ja ;
+      karuta:transcriptionOfFirstHalf "うかりける ひとをはつせの やまおろし"@ja ;
+      karuta:secondHalf "はげしかれとは 祈らぬものを"@ja ;
+      karuta:transcriptionOfSecondHalf "はげしかれとは いのらぬものを"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "初瀬"@ja ;
+      geo:lat "34.535885"^^xsd:float ;
+      geo:long "135.906794"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_074>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_074>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_074>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_074>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_074>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_074>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_074>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_074>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_074> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_074>, <http://linkdata.org/resource/rdf1s8015i#clay_074>, <http://linkdata.org/resource/rdf1s8099i#dickins_074>, <http://linkdata.org/resource/rdf1s8100i#noguchi_074> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_075>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_075"@ja ;
+      karuta:text "契りおきし させもが露を 命にて あはれ今年の 秋も去ぬめり"@ja ;
+      karuta:historicalTranscription "ちぎりおきし させもがつゆを いのちにて　あはれことしの あきもいぬめり"@ja ;
+      karuta:romanTranscription "Chigiri okishi Sasemo ga tsuyu wo Inochi nite Aware kotoshi no Aki mo inumeri."@en ;
+      dc:creator "藤原基俊"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_075> ;
+      bibo:number "75"@ja ;
+      karuta:textOfYomi "契りおきしさせもが露を命にて あはれ今年の秋も去ぬめり"@ja ;
+      karuta:textOfTori "あはれことしのあきもいぬめり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_075.jpg> ;
+      karuta:uniqueSyllable "ちぎりお"@ja ;
+      karuta:firstHalf "契りおきし させもが露を 命にて"@ja ;
+      karuta:transcriptionOfFirstHalf "ちぎりおきし させもがつゆを いのちにて"@ja ;
+      karuta:secondHalf "あはれ今年の 秋も去ぬめり"@ja ;
+      karuta:transcriptionOfSecondHalf "あわれことしの あきもいぬめり"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_075>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_075>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_075>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_075>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_075>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_075>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_075>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_075>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_075> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_075>, <http://linkdata.org/resource/rdf1s8015i#clay_075>, <http://linkdata.org/resource/rdf1s8099i#dickins_075>, <http://linkdata.org/resource/rdf1s8100i#noguchi_075> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_076>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_076"@ja ;
+      karuta:text "わたの原 漕ぎ出でて見れば 久方の 雲居にまがふ 沖つ白浪"@ja ;
+      karuta:historicalTranscription "わたのはら こぎいでてみれば ひさかたの　くもゐにまがふ おきつしらなみ"@ja ;
+      karuta:romanTranscription "Wada no hara Kogi idete mireba Hisakata no Kumoi ni magau Okitsu shira nami."@en ;
+      dc:creator "法性寺入道前関白太政大臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_076> ;
+      bibo:number "76"@ja ;
+      karuta:textOfYomi "わたの原漕ぎ出でて見れば久方の 雲居にまがふ沖つ白浪"@ja ;
+      karuta:textOfTori "くもゐにまかふおきつしらなみ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_076.jpg> ;
+      karuta:uniqueSyllable "わたのはらこ"@ja ;
+      karuta:firstHalf "わたの原 漕ぎ出でて見れば 久方の"@ja ;
+      karuta:transcriptionOfFirstHalf "わたのはら こぎいでてみれば ひさかたの"@ja ;
+      karuta:secondHalf "雲居にまがふ 沖つ白浪"@ja ;
+      karuta:transcriptionOfSecondHalf "くもいにまごう おきつしらなみ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "詞花集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_076>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_076>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_076>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_076>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_076>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_076>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_076>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_076>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_076> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_076>, <http://linkdata.org/resource/rdf1s8015i#clay_076>, <http://linkdata.org/resource/rdf1s8099i#dickins_076>, <http://linkdata.org/resource/rdf1s8100i#noguchi_076> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_077>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_077"@ja ;
+      karuta:text "瀬を早み 岩にせかるる 瀧川の われても末に 逢はむとぞ思ふ"@ja ;
+      karuta:historicalTranscription "せをはやみ いわにせかるる たきがはの　われてもすゑに あはむとぞおもふ"@ja ;
+      karuta:romanTranscription "Se wo hayami Iwa ni sekaruru Taki-gawa no Warete mo sue ni Awan to zo omou."@en ;
+      dc:creator "崇徳院"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_077> ;
+      bibo:number "77"@ja ;
+      karuta:textOfYomi "瀬を早み岩にせかるる瀧川の われても末に逢はむとぞ思ふ"@ja ;
+      karuta:textOfTori "われてもすゑにあわむとそおもふ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_077.jpg> ;
+      karuta:uniqueSyllable "せ"@ja ;
+      karuta:firstHalf "瀬を早み 岩にせかるる 瀧川の"@ja ;
+      karuta:transcriptionOfFirstHalf "せをはやみ いわにせかるる たきがわの　"@ja ;
+      karuta:secondHalf "われても末に 逢はむとぞ思ふ"@ja ;
+      karuta:transcriptionOfSecondHalf "われてもすえに あわんとぞおもう"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "詞花集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_077>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_077>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_077>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_077>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_077>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_077>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_077>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_077>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_077> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_077>, <http://linkdata.org/resource/rdf1s8015i#clay_077>, <http://linkdata.org/resource/rdf1s8099i#dickins_077>, <http://linkdata.org/resource/rdf1s8100i#noguchi_077> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_078>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_078"@ja ;
+      karuta:text "淡路島 かよふ千鳥の 鳴く声に いくよ寝覚めぬ 須磨の関守"@ja ;
+      karuta:historicalTranscription "あわじしま かよふちどりの なくこゑに　いくよねざめぬ すまのせきもり"@ja ;
+      karuta:romanTranscription "Awaji shima Kayou chidori no Naku koe ni Iku yo nezamenu Suma no seki-mori."@en ;
+      dc:creator "源兼昌"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_078> ;
+      bibo:number "78"@ja ;
+      karuta:textOfYomi "淡路島かよふ千鳥の鳴く声に いくよ寝覚めぬ須磨の関守"@ja ;
+      karuta:textOfTori "いくよねさめぬすまのせきもり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_078.jpg> ;
+      karuta:uniqueSyllable "あわじ"@ja ;
+      karuta:firstHalf "淡路島 かよふ千鳥の 鳴く声に"@ja ;
+      karuta:transcriptionOfFirstHalf "あわじしま かようちどりの なくこえに　"@ja ;
+      karuta:secondHalf "いくよ寝覚めぬ 須磨の関守"@ja ;
+      karuta:transcriptionOfSecondHalf "いくよねざめぬ すまのせきもり"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "金葉集"@ja ;
+      dc:subject "冬"@ja ;
+      dc:spacial "淡路島 "@ja, " 須磨"@ja ;
+      geo:lat "34.325712"^^xsd:float ;
+      geo:long "134.813111"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_078>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_078>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_078>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_078>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_078>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_078>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_078>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_078>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_078> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_078>, <http://linkdata.org/resource/rdf1s8015i#clay_078>, <http://linkdata.org/resource/rdf1s8099i#dickins_078>, <http://linkdata.org/resource/rdf1s8100i#noguchi_078> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_079>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_079"@ja ;
+      karuta:text "秋風に たなびく雲の 絶え間より もれ出づる月の 影のさやけさ"@ja ;
+      karuta:historicalTranscription "あきかぜに たなびくくもの たえまより　もれいづるつきの かげのさやけさ"@ja ;
+      karuta:romanTranscription "Aki kaze ni Tanabiku kumo no Taema yori More-izaru tsuki no Kage no sayakesa."@en ;
+      dc:creator "左京大夫顕輔"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_079> ;
+      bibo:number "79"@ja ;
+      karuta:textOfYomi "秋風にたなびく雲の絶え間より もれ出づる月の影のさやけさ"@ja ;
+      karuta:textOfTori "もれいつるつきのかけのさやけさ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_079.jpg> ;
+      karuta:uniqueSyllable "あきか"@ja ;
+      karuta:firstHalf "秋風に たなびく雲の 絶え間より"@ja ;
+      karuta:transcriptionOfFirstHalf "あきかぜに たなびくくもの たえまより　"@ja ;
+      karuta:secondHalf "もれ出づる月の 影のさやけさ"@ja ;
+      karuta:transcriptionOfSecondHalf "もれいづるつきの かげのさやけさ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_079>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_079>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_079>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_079>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_079>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_079>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_079>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_079>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_079> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_079>, <http://linkdata.org/resource/rdf1s8015i#clay_079>, <http://linkdata.org/resource/rdf1s8099i#dickins_079>, <http://linkdata.org/resource/rdf1s8100i#noguchi_079> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_080>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_080"@ja ;
+      karuta:text "ながからむ 心も知らず 黒髪の みだれて今朝は ものをこそ思へ"@ja ;
+      karuta:historicalTranscription "ながからむ こころもしらず くろかみの　みだれてけさは ものをこそおもへ"@ja ;
+      karuta:romanTranscription "Nagakaran Kokoro mo shirazu Kuro kami no Midarete kesa wa Mono wo koso omoe."@en ;
+      dc:creator "待賢門院堀川"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_080> ;
+      bibo:number "80"@ja ;
+      karuta:textOfYomi "ながからむ心も知らず黒髪の みだれて今朝はものをこそ思へ"@ja ;
+      karuta:textOfTori "みたれてけさはものをこそおもへ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_080.jpg> ;
+      karuta:uniqueSyllable "ながか"@ja ;
+      karuta:firstHalf "ながからむ 心も知らず 黒髪の"@ja ;
+      karuta:transcriptionOfFirstHalf "ながからん こころもしらず くろかみの　"@ja ;
+      karuta:secondHalf "みだれて今朝は ものをこそ思へ"@ja ;
+      karuta:transcriptionOfSecondHalf "みだれてけさは ものをこそおもえ"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_080>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_080>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_080>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_080>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_080>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_080>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_089>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_080>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_080> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_080>, <http://linkdata.org/resource/rdf1s8015i#clay_080>, <http://linkdata.org/resource/rdf1s8099i#dickins_080>, <http://linkdata.org/resource/rdf1s8100i#noguchi_080> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_081>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_081"@ja ;
+      karuta:text "ほととぎす 鳴きつる方を 眺むれば ただ有明の 月ぞ残れる"@ja ;
+      karuta:historicalTranscription "ほととぎす なきつるかたを ながむれば　ただありあけの つきぞのこれる"@ja ;
+      karuta:romanTranscription "Hototogisu Nakitsuru kata wo Nagamureba Tada ariake no Tsuki zo nokoreru."@en ;
+      dc:creator "後徳大寺左大臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_081> ;
+      bibo:number "81"@ja ;
+      karuta:textOfYomi "ほととぎす鳴きつる方を眺むれば ただ有明の月ぞ残れる"@ja ;
+      karuta:textOfTori "たたありあけのつきそのこれる"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_081.jpg> ;
+      karuta:uniqueSyllable "ほ"@ja ;
+      karuta:firstHalf "ほととぎす 鳴きつる方を 眺むれば"@ja ;
+      karuta:transcriptionOfFirstHalf "ほととぎす なきつるかたを ながむれば　"@ja ;
+      karuta:secondHalf "ただ有明の 月ぞ残れる"@ja ;
+      karuta:transcriptionOfSecondHalf "ただありあけの つきぞのこれる"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "夏"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_081>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_081>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_081>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_081>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_081>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_081>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_080>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_081>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_081> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_081>, <http://linkdata.org/resource/rdf1s8015i#clay_081>, <http://linkdata.org/resource/rdf1s8099i#dickins_081>, <http://linkdata.org/resource/rdf1s8100i#noguchi_081> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_082>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_082"@ja ;
+      karuta:text "思ひわび さても命は あるものを 憂きに堪へぬは 涙なりけり"@ja ;
+      karuta:historicalTranscription "おもひわび さてもいのちは あるものを　うきにたへぬは なみだなりけり"@ja ;
+      karuta:romanTranscription "Omoi-wabi Satemo inochi wa Aru mono wo Uki ni taenu wa Namida nari keri."@en ;
+      dc:creator "道因法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_082> ;
+      bibo:number "82"@ja ;
+      karuta:textOfYomi "思ひわびさても命はあるものを 憂きに堪へぬは涙なりけり"@ja ;
+      karuta:textOfTori "うきにたへぬはなみたなりけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_082.jpg> ;
+      karuta:uniqueSyllable "おも"@ja ;
+      karuta:firstHalf "思ひわび さても命は あるものを"@ja ;
+      karuta:transcriptionOfFirstHalf "おもいわび さてもいのちは あるものを　"@ja ;
+      karuta:secondHalf "憂きに堪へぬは 涙なりけり"@ja ;
+      karuta:transcriptionOfSecondHalf "うきにたえぬは なみだなりけり"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_082>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_082>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_082>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_082>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_082>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_082>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_081>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_082>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_082> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_082>, <http://linkdata.org/resource/rdf1s8015i#clay_082>, <http://linkdata.org/resource/rdf1s8099i#dickins_082>, <http://linkdata.org/resource/rdf1s8100i#noguchi_082> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_083>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_083"@ja ;
+      karuta:text "世の中よ 道こそなけれ 思ひ入る 山の奥にも 鹿ぞなくなる"@ja ;
+      karuta:historicalTranscription "よのなかよ みちこそなけれ おもひいる　やまのおくにも しかぞなくなる"@ja ;
+      karuta:romanTranscription "Yo no naka yo Michi koso nakere Omoi iru Yama no oku ni mo Shika zo naku naru."@en ;
+      dc:creator "皇太后宮大夫俊成"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_083> ;
+      bibo:number "83"@ja ;
+      karuta:textOfYomi "世の中よ道こそなけれ思ひ入る 山の奥にも鹿ぞなくなる"@ja ;
+      karuta:textOfTori "やまのおくにもしかそなくなる"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_083.jpg> ;
+      karuta:uniqueSyllable "よのなかよ"@ja ;
+      karuta:firstHalf "世の中よ 道こそなけれ 思ひ入る"@ja ;
+      karuta:transcriptionOfFirstHalf "よのなかよ みちこそなけれ おもひいる　"@ja ;
+      karuta:secondHalf "山の奥にも 鹿ぞなくなる"@ja ;
+      karuta:transcriptionOfSecondHalf "やまのおくにも しかぞなくなる"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_083>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_083>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_083>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_083>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_083>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_083>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_082>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_083>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_083> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_083>, <http://linkdata.org/resource/rdf1s8015i#clay_083>, <http://linkdata.org/resource/rdf1s8099i#dickins_083>, <http://linkdata.org/resource/rdf1s8100i#noguchi_083> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_084>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_084"@ja ;
+      karuta:text "ながらへば また此の頃や しのばれむ 憂しと見し世ぞ 今は戀しき"@ja ;
+      karuta:historicalTranscription "ながらへば またこのごろや しのばれむ　うしとみしよぞ いまはこひしき"@ja ;
+      karuta:romanTranscription "Nagaraeba Mata konogoro ya Shinobaremu Ushi to mishi yo zo Ima wa koishiki."@en ;
+      dc:creator "藤原清輔朝臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_084> ;
+      bibo:number "84"@ja ;
+      karuta:textOfYomi "ながらへばまた此の頃やしのばれむ 憂しと見し世ぞ今は戀しき"@ja ;
+      karuta:textOfTori "うしとみしよそいまはこひしき"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_084.jpg> ;
+      karuta:uniqueSyllable "ながら"@ja ;
+      karuta:firstHalf "ながらへば また此の頃や しのばれむ"@ja ;
+      karuta:transcriptionOfFirstHalf "ながらえば またこのごろや しのばれん　"@ja ;
+      karuta:secondHalf "憂しと見し世ぞ 今は戀しき"@ja ;
+      karuta:transcriptionOfSecondHalf "うしとみしよぞ いまはこいしき"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_084>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_084>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_084>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_084>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_084>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_084>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_083>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_084>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_084> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_084>, <http://linkdata.org/resource/rdf1s8015i#clay_084>, <http://linkdata.org/resource/rdf1s8099i#dickins_084>, <http://linkdata.org/resource/rdf1s8100i#noguchi_084> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_085>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_085"@ja ;
+      karuta:text "夜もすがら もの思ふ頃は 明けやらで ねやのひまさへ つれなかりけり"@ja ;
+      karuta:historicalTranscription "よもすがら ものおもふころは あけやらで　ねやのひまさへ つれなかりけり"@ja ;
+      karuta:romanTranscription "Yomosugara Mono omou koro wa Ake yarade Neya no hima sae Tsurena kari keri."@en ;
+      dc:creator "俊恵法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_085> ;
+      bibo:number "85"@ja ;
+      karuta:textOfYomi "夜もすがらもの思ふ頃は明けやらで ねやのひまさへつれなかりけり"@ja ;
+      karuta:textOfTori "ねやのひまさへつれなかりけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_085.jpg> ;
+      karuta:uniqueSyllable "よも"@ja ;
+      karuta:firstHalf "夜もすがら もの思ふ頃は 明けやらで"@ja ;
+      karuta:transcriptionOfFirstHalf "よもすがら ものおもうころは あけやらで"@ja ;
+      karuta:secondHalf "ねやのひまさへ つれなかりけり"@ja ;
+      karuta:transcriptionOfSecondHalf "ねやのひまさえ つれなかりけり"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_085>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_085>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_085>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_085>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_085>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_085>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_084>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_085>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_085> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_085>, <http://linkdata.org/resource/rdf1s8015i#clay_085>, <http://linkdata.org/resource/rdf1s8099i#dickins_085>, <http://linkdata.org/resource/rdf1s8100i#noguchi_085> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_086>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_086"@ja ;
+      karuta:text "嘆けとて 月やはものを 思はする かこち顔なる わが涙かな"@ja ;
+      karuta:historicalTranscription "なげけとて つきやはものを おもはする　かこちがほなる わがなみだかな"@ja ;
+      karuta:romanTranscription "Nageke tote Tsuki ya wa mono wo Omowasuru Kakochi-gao naru Waga namida kana."@en ;
+      dc:creator "西行法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_086> ;
+      bibo:number "86"@ja ;
+      karuta:textOfYomi "嘆けとて月やはものを思はする かこち顔なるわが涙かな"@ja ;
+      karuta:textOfTori "かこちかほなるわかなみたかな"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_086.jpg> ;
+      karuta:uniqueSyllable "なげけ"@ja ;
+      karuta:firstHalf "嘆けとて 月やはものを 思はする"@ja ;
+      karuta:transcriptionOfFirstHalf "なげけとて つきやはものを おもわする　"@ja ;
+      karuta:secondHalf "かこち顔なる わが涙かな"@ja ;
+      karuta:transcriptionOfSecondHalf "かこちがおなる わがなみだかな"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_086>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_086>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_086>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_086>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_086>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_086>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_085>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_086>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_086> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_086>, <http://linkdata.org/resource/rdf1s8015i#clay_086>, <http://linkdata.org/resource/rdf1s8099i#dickins_086>, <http://linkdata.org/resource/rdf1s8100i#noguchi_086> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_087>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_087"@ja ;
+      karuta:text "村雨の 露もまだひぬ 槇の葉に 霧立ちのぼる 秋の夕暮"@ja ;
+      karuta:historicalTranscription "むらさめの つゆもまだひぬ まきのはに　きりたちのぼる あきのゆふぐれ"@ja ;
+      karuta:romanTranscription "Murasame no Tsuyu mo mada hinu Maki no ha ni Kiri tachi-noboru Aki no yūgure."@en ;
+      dc:creator "寂蓮法師"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_087> ;
+      bibo:number "87"@ja ;
+      karuta:textOfYomi "村雨の露もまだひぬ槇の葉に 霧立ちのぼる秋の夕暮"@ja ;
+      karuta:textOfTori "きりたちのほるあきのゆふくれ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_087.jpg> ;
+      karuta:uniqueSyllable "む"@ja ;
+      karuta:firstHalf "村雨の 露もまだひぬ 槇の葉に"@ja ;
+      karuta:transcriptionOfFirstHalf "むらさめの つゆもまだひぬ まきのはに　"@ja ;
+      karuta:secondHalf "霧立ちのぼる 秋の夕暮"@ja ;
+      karuta:transcriptionOfSecondHalf "きりたちのぼる あきのゆふぐれ"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_087>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_087>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_087>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_087>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_087>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_087>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_086>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_087>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_087> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_087>, <http://linkdata.org/resource/rdf1s8015i#clay_087>, <http://linkdata.org/resource/rdf1s8099i#dickins_087>, <http://linkdata.org/resource/rdf1s8100i#noguchi_087> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_088>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_088"@ja ;
+      karuta:text "難波江の あしのかりねの 一夜ゆゑ みをつくしてや 戀ひわたるべき"@ja ;
+      karuta:historicalTranscription "なにはえの あしのかりねの ひとよゆゑ　みをつくしてや こひわたるべき"@ja ;
+      karuta:romanTranscription "Naniwa e no Ashi no karine no Hito yo yue Mi wo tsukushite ya Koi wataru beki."@en ;
+      dc:creator "皇嘉門院別当"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_088> ;
+      bibo:number "88"@ja ;
+      karuta:textOfYomi "難波江のあしのかりねの一夜ゆゑ みをつくしてや戀ひわたるべき"@ja ;
+      karuta:textOfTori "みをつくしてやこひわたるへき"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_088.jpg> ;
+      karuta:uniqueSyllable "なにはえ"@ja ;
+      karuta:firstHalf "難波江の あしのかりねの 一夜ゆゑ"@ja ;
+      karuta:transcriptionOfFirstHalf "なにわえの あしのかりねの ひとよゆえ　"@ja ;
+      karuta:secondHalf "みをつくしてや 戀ひわたるべき"@ja ;
+      karuta:transcriptionOfSecondHalf "みをつくしてや こいわたるべき"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "難波江"@ja ;
+      geo:lat "34.687077"^^xsd:float ;
+      geo:long "135.512528"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_088>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_088>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_088>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_088>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_088>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_088>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_087>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_088>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_088> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_088>, <http://linkdata.org/resource/rdf1s8015i#clay_088>, <http://linkdata.org/resource/rdf1s8099i#dickins_088>, <http://linkdata.org/resource/rdf1s8100i#noguchi_088> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_089>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_089"@ja ;
+      karuta:text "玉の緒よ たえなば絶えね ながらへば 忍ぶることの 弱りもぞする"@ja ;
+      karuta:historicalTranscription "たまのをよ たえなばたえね ながらへば　しのぶることの よはりもぞする"@ja ;
+      karuta:romanTranscription "Tama no o yo Taenaba taene Nagaraeba Shinoburu koto no Yowari mo zo suru."@en ;
+      dc:creator "式子内親王"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_089> ;
+      bibo:number "89"@ja ;
+      karuta:textOfYomi "玉の緒よたえなば絶えねながらへば 忍ぶることの弱りもぞする"@ja ;
+      karuta:textOfTori "しのふることのよはりもそする"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_089.jpg> ;
+      karuta:uniqueSyllable "たま"@ja ;
+      karuta:firstHalf "玉の緒よ たえなば絶えね ながらへば"@ja ;
+      karuta:transcriptionOfFirstHalf "たまのおよ たえなばたえね ながらえば　"@ja ;
+      karuta:secondHalf "忍ぶることの 弱りもぞする"@ja ;
+      karuta:transcriptionOfSecondHalf "しのぶることの よわりもぞする"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_089>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_089>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_089>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_089>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_089>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_089>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_088>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_089>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_089> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_089>, <http://linkdata.org/resource/rdf1s8015i#clay_089>, <http://linkdata.org/resource/rdf1s8099i#dickins_089>, <http://linkdata.org/resource/rdf1s8100i#noguchi_089> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_090>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_090"@ja ;
+      karuta:text "見せばやな 雄島のあまの 袖だにも 濡れにぞ濡れし 色はかはらず"@ja ;
+      karuta:historicalTranscription "みせばやな をじまのあまの そでだにも　ぬれにぞぬれし いろはかはらず"@ja ;
+      karuta:romanTranscription "Misebayana Ojima no ama no Sode dani no Nure ni zo nureshi Iro wa kawaraji."@en ;
+      dc:creator "殷富門院大輔"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_090> ;
+      bibo:number "90"@ja ;
+      karuta:textOfYomi "見せばやな雄島のあまの袖だにも 濡れにぞ濡れし色はかはらず"@ja ;
+      karuta:textOfTori "ぬれにそぬれしいろはかはらす"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_090.jpg> ;
+      karuta:uniqueSyllable "みせ"@ja ;
+      karuta:firstHalf "見せばやな 雄島のあまの 袖だにも"@ja ;
+      karuta:transcriptionOfFirstHalf "みせばやな おじまのあまの そでだにも　"@ja ;
+      karuta:secondHalf "濡れにぞ濡れし 色はかはらず"@ja ;
+      karuta:transcriptionOfSecondHalf "ぬれにぞぬれし いろはかわらず"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "雄島"@ja ;
+      geo:lat "38.36535"^^xsd:float ;
+      geo:long "141.06253"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_090>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_090>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_090>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_090>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_090>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_090>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_090>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_090>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_090> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_090>, <http://linkdata.org/resource/rdf1s8015i#clay_090>, <http://linkdata.org/resource/rdf1s8099i#dickins_090>, <http://linkdata.org/resource/rdf1s8100i#noguchi_090> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_091>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_091"@ja ;
+      karuta:text "きりぎりす なくや霜夜の さむしろに 衣かたしき 獨りかも寝む"@ja ;
+      karuta:historicalTranscription "きりぎりす なくやしもよの さむしろに　ころもかたしき ひとりかもねむ"@ja ;
+      karuta:romanTranscription "Kirigirisu Naku ya shimo yo no Samushiro ni Koromo katashiki Hitori kamo nen."@en ;
+      dc:creator "後京極摂政前太政大臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_091> ;
+      bibo:number "91"@ja ;
+      karuta:textOfYomi "きりぎりすなくや霜夜のさむしろに 衣かたしき獨りかも寝む"@ja ;
+      karuta:textOfTori "ころもかたしきひとりかもねむ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_091.jpg> ;
+      karuta:uniqueSyllable "きり"@ja ;
+      karuta:firstHalf "きりぎりす なくや霜夜の さむしろに"@ja ;
+      karuta:transcriptionOfFirstHalf "きりぎりす なくやしもよの さむしろに　"@ja ;
+      karuta:secondHalf "衣かたしき 獨りかも寝む"@ja ;
+      karuta:transcriptionOfSecondHalf "ころもかたしき ひとりかもねん"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_091>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_091>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_091>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_091>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_091>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_091>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_091>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_091>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_091> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_091>, <http://linkdata.org/resource/rdf1s8015i#clay_091>, <http://linkdata.org/resource/rdf1s8099i#dickins_091>, <http://linkdata.org/resource/rdf1s8100i#noguchi_091> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_092>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_092"@ja ;
+      karuta:text "わが袖は 汐干に見えぬ 沖の石の 人こそ知らね 乾く間もなし"@ja ;
+      karuta:historicalTranscription "わがそでは しほひにみえぬ おきのいしの　ひとこそしらね かわくまもなし"@ja ;
+      karuta:romanTranscription "Waga sode wa Shiohi ni mienu Oki no ishi no Hito koso shirane Kawaku ma mo nashi."@en ;
+      dc:creator "二条院讃岐"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_092> ;
+      bibo:number "92"@ja ;
+      karuta:textOfYomi "わが袖は汐干に見えぬ沖の石の 人こそ知らね乾く間もなし"@ja ;
+      karuta:textOfTori "ひとこそしらねかわくまもなし"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_092.jpg> ;
+      karuta:uniqueSyllable "わがそ"@ja ;
+      karuta:firstHalf "わが袖は 汐干に見えぬ 沖の石の"@ja ;
+      karuta:transcriptionOfFirstHalf "わがそでは しおひにみえぬ おきのいしの"@ja ;
+      karuta:secondHalf "人こそ知らね 乾く間もなし"@ja ;
+      karuta:transcriptionOfSecondHalf "ひとこそしらね かわくまもなし"@ja ;
+      karuta:bonze "姫"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "恋"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_092>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_092>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_092>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_092>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_092>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_092>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_092>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_092>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_092> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_092>, <http://linkdata.org/resource/rdf1s8015i#clay_092>, <http://linkdata.org/resource/rdf1s8099i#dickins_092>, <http://linkdata.org/resource/rdf1s8100i#noguchi_092> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_093>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_093"@ja ;
+      karuta:text "世の中は 常にもがもな 渚こぐ 海士の小舟の 綱手かなしも"@ja ;
+      karuta:historicalTranscription "よのなかは つねにもがもな なぎさこぐ　あまのをぶねの つなでかなしも"@ja ;
+      karuta:romanTranscription "Yo no naka wa Tsune ni moga mo na Nagisa kogu Ama no obune no Tsunade kanashi mo."@en ;
+      dc:creator "鎌倉右大臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_093> ;
+      bibo:number "93"@ja ;
+      karuta:textOfYomi "世の中は常にもがもな渚こぐ 海士の小舟の綱手かなしも"@ja ;
+      karuta:textOfTori "あまのをふねのつなてかなしも"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_093.jpg> ;
+      karuta:uniqueSyllable "よのなかは"@ja ;
+      karuta:firstHalf "世の中は 常にもがもな 渚こぐ"@ja ;
+      karuta:transcriptionOfFirstHalf "よのなかは つねにもがもな なぎさこぐ　"@ja ;
+      karuta:secondHalf "海士の小舟の 綱手かなしも"@ja ;
+      karuta:transcriptionOfSecondHalf "あまのおぶねの つなでかなしも"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新勅撰集"@ja ;
+      dc:subject "羇旅"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_093>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_093>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_093>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_093>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_093>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_093>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_093>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_093>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_093> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_093>, <http://linkdata.org/resource/rdf1s8015i#clay_093>, <http://linkdata.org/resource/rdf1s8099i#dickins_093>, <http://linkdata.org/resource/rdf1s8100i#noguchi_093> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_094>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_094"@ja ;
+      karuta:text "みよしのの 山の秋風 小夜更けて 故郷寒く 衣うつなり"@ja ;
+      karuta:historicalTranscription "みよしのの やまのあきかぜ さよふけて　ふるさとさむく ころもうつなり"@ja ;
+      karuta:romanTranscription "Miyoshino no Yama no aki kaze Sayo fukete Furu sato samuku Koromo utsu nari."@en ;
+      dc:creator "参議雅経"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_094> ;
+      bibo:number "94"@ja ;
+      karuta:textOfYomi "みよしのの山の秋風小夜更けて 故郷寒く衣うつなり"@ja ;
+      karuta:textOfTori "ふるさとさむくころもうつなり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_094.jpg> ;
+      karuta:uniqueSyllable "みよ"@ja ;
+      karuta:firstHalf "みよしのの 山の秋風 小夜更けて"@ja ;
+      karuta:transcriptionOfFirstHalf "みよしのの やまのあきかぜ さよふけて　"@ja ;
+      karuta:secondHalf "故郷寒く 衣うつなり"@ja ;
+      karuta:transcriptionOfSecondHalf "ふるさとさむく ころもうつなり"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新古今集"@ja ;
+      dc:subject "秋"@ja ;
+      dc:spacial "吉野"@ja ;
+      geo:lat "34.36202"^^xsd:float ;
+      geo:long "135.864628"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_094>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_094>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_094>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_094>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_094>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_094>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_094>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_094>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_094> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_094>, <http://linkdata.org/resource/rdf1s8015i#clay_094>, <http://linkdata.org/resource/rdf1s8099i#dickins_094>, <http://linkdata.org/resource/rdf1s8100i#noguchi_094> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_095>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_095"@ja ;
+      karuta:text "おほけなく うき世の民に おほふかな 我が立つ杣に 墨染の袖"@ja ;
+      karuta:historicalTranscription "おほけなく うきよのたみに おほふかな　わがたつそまに すみぞめのそで"@ja ;
+      karuta:romanTranscription "Ōkenaku Uki yo no tami ni Ōu kana Waga tatsu soma ni Sumizome no sode."@en ;
+      dc:creator "前大僧正慈圓"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_095> ;
+      bibo:number "95"@ja ;
+      karuta:textOfYomi "おほけなくうき世の民におほふかな 我が立つ杣に墨染の袖"@ja ;
+      karuta:textOfTori "わかたつそまにすみそめのそて"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_095.jpg> ;
+      karuta:uniqueSyllable "おほけ"@ja ;
+      karuta:firstHalf "おほけなく うき世の民に おほふかな"@ja ;
+      karuta:transcriptionOfFirstHalf "おおけなく うきよのたみに おおうかな　"@ja ;
+      karuta:secondHalf "我が立つ杣に 墨染の袖"@ja ;
+      karuta:transcriptionOfSecondHalf "わがたつそまに すみぞめのそで"@ja ;
+      karuta:bonze "坊主"@ja ;
+      dc:source "千載集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_095>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_095>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_095>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_095>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_095>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_095>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_095>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_095>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_095> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_095>, <http://linkdata.org/resource/rdf1s8015i#clay_095>, <http://linkdata.org/resource/rdf1s8099i#dickins_095>, <http://linkdata.org/resource/rdf1s8100i#noguchi_095> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_096>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_096"@ja ;
+      karuta:text "花さそふ あらしの庭の 雪ならで ふりゆくものは 我が身なりけり"@ja ;
+      karuta:historicalTranscription "はなさそふ あらしのにはの ゆきならで　ふりゆくものは わがみなりけり"@ja ;
+      karuta:romanTranscription "Hana sasou Arashi no niwa no Yuki narade Furi yuku mono wa Waga mi nari keri."@en ;
+      dc:creator "入道前太政大臣"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_096> ;
+      bibo:number "96"@ja ;
+      karuta:textOfYomi "花さそふあらしの庭の雪ならで ふりゆくものは我が身なりけり"@ja ;
+      karuta:textOfTori "ふりゆくものはわかみなりけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_096.jpg> ;
+      karuta:uniqueSyllable "はなさ"@ja ;
+      karuta:firstHalf "花さそふ あらしの庭の 雪ならで"@ja ;
+      karuta:transcriptionOfFirstHalf "はなさそう あらしのにわの ゆきならで　"@ja ;
+      karuta:secondHalf "ふりゆくものは 我が身なりけり"@ja ;
+      karuta:transcriptionOfSecondHalf "ふりゆくものは わがみなりけり"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新勅撰集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_096>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_096>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_096>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_096>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_096>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_096>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_096>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_096>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_096> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_096>, <http://linkdata.org/resource/rdf1s8015i#clay_096>, <http://linkdata.org/resource/rdf1s8099i#dickins_096>, <http://linkdata.org/resource/rdf1s8100i#noguchi_096> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_097>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_097"@ja ;
+      karuta:text "来ぬ人を 松帆の浦の 夕なぎに 焼くや藻塩の 身もこがれつつ"@ja ;
+      karuta:historicalTranscription "こぬひとを まつほのうらの ゆふなぎに　やくやもしほの みもこがれつつ"@ja ;
+      karuta:romanTranscription "Konu hito wo Matsu-hō no ura no Yūnagi ni Yaku ya moshio no Mi mo kogare-tsutsu."@en ;
+      dc:creator "権中納言定家"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_097> ;
+      bibo:number "97"@ja ;
+      karuta:textOfYomi "来ぬ人を松帆の浦の夕なぎに 焼くや藻塩の身もこがれつつ"@ja ;
+      karuta:textOfTori "やくやもしほのみもこかれつつ"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_097.jpg> ;
+      karuta:uniqueSyllable "こぬ"@ja ;
+      karuta:firstHalf "来ぬ人を 松帆の浦の 夕なぎに"@ja ;
+      karuta:transcriptionOfFirstHalf "こぬひとを まつほのうらの ゆうなぎに　"@ja ;
+      karuta:secondHalf "焼くや藻塩の 身もこがれつつ"@ja ;
+      karuta:transcriptionOfSecondHalf "やくやもしおの みもこがれつつ"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新勅撰集"@ja ;
+      dc:subject "恋"@ja ;
+      dc:spacial "松帆の浦"@ja ;
+      geo:lat "34.609083"^^xsd:float ;
+      geo:long "135.002851"^^xsd:float ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_097>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_097>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_097>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_097>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_097>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_097>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_097>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_097>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_097> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_097>, <http://linkdata.org/resource/rdf1s8015i#clay_097>, <http://linkdata.org/resource/rdf1s8099i#dickins_097>, <http://linkdata.org/resource/rdf1s8100i#noguchi_097> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_098>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_098"@ja ;
+      karuta:text "風そよぐ 楢の小川の 夕ぐれは みそぎぞ夏の しるしなりける"@ja ;
+      karuta:historicalTranscription "かぜそよぐ ならのをがわの ゆふぐれは　みそぎぞなつの しるしなりける"@ja ;
+      karuta:romanTranscription "Kaze soyogu Nara no ogawa no Yūgure wa Misogi zo natsu no Shirushi nari keri."@en ;
+      dc:creator "従二位家隆"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_098> ;
+      bibo:number "98"@ja ;
+      karuta:textOfYomi "風そよぐ楢の小川の夕ぐれは みそぎぞ夏のしるしなりける"@ja ;
+      karuta:textOfTori "みそきそなつのしるしなりける"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_098.jpg> ;
+      karuta:uniqueSyllable "かぜそ"@ja ;
+      karuta:firstHalf "風そよぐ 楢の小川の 夕ぐれは"@ja ;
+      karuta:transcriptionOfFirstHalf "かぜそよぐ ならのおがわの ゆうぐれは　"@ja ;
+      karuta:secondHalf "みそぎぞ夏の しるしなりける"@ja ;
+      karuta:transcriptionOfSecondHalf "みそぎぞなつの しるしなりける"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "新勅撰集"@ja ;
+      dc:subject "夏"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_098>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_098>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_098>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_098>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_098>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_098>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_098>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_098>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_098> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_098>, <http://linkdata.org/resource/rdf1s8015i#clay_098>, <http://linkdata.org/resource/rdf1s8099i#dickins_098>, <http://linkdata.org/resource/rdf1s8100i#noguchi_098> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_099>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_099"@ja ;
+      karuta:text "人もをし 人もうらめし あぢきなく 世を思ふ故に もの思ふ身は"@ja ;
+      karuta:historicalTranscription "ひともをし ひともうらめし あぢきなく　よをおもふゆゑに ものおもふみは"@ja ;
+      karuta:romanTranscription "Hito mo oshi Hito mo urameshi Ajiki-naku Yo wo omou yue ni. Mono omou mi wa."@en ;
+      dc:creator "後鳥羽院"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_099> ;
+      bibo:number "99"@ja ;
+      karuta:textOfYomi "人もをし人もうらめしあぢきなく 世を思ふ故にもの思ふ身は"@ja ;
+      karuta:textOfTori "よをおもふゆゑにものおもふみは"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_099.jpg> ;
+      karuta:uniqueSyllable "ひとも"@ja ;
+      karuta:firstHalf "人もをし 人もうらめし あぢきなく"@ja ;
+      karuta:transcriptionOfFirstHalf "ひともおし ひともうらめし あじきなく　"@ja ;
+      karuta:secondHalf "世を思ふ故に もの思ふ身は"@ja ;
+      karuta:transcriptionOfSecondHalf "よをおもうゆえに ものおもうみは"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "続後撰集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_099>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_099>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_099>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_099>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_099>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_099>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_099>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_099>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_099> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_099>, <http://linkdata.org/resource/rdf1s8015i#clay_099>, <http://linkdata.org/resource/rdf1s8099i#dickins_099>, <http://linkdata.org/resource/rdf1s8100i#noguchi_099> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_100>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_100"@ja ;
+      karuta:text "百敷や 古き軒端の しのぶにも なほあまりある 昔なりけり"@ja ;
+      karuta:historicalTranscription "ももしきや ふるきのきばの しのぶにも　なほあまりある むかしなりけり"@ja ;
+      karuta:romanTranscription "Momoshiki ya Furuki nokiba no Shinobu ni mo Nao amari aru Mukashi nari keri."@en ;
+      dc:creator "順徳院"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_100> ;
+      bibo:number "100"@ja ;
+      karuta:textOfYomi "百敷や古き軒端のしのぶにも なほあまりある昔なりけり"@ja ;
+      karuta:textOfTori "なほあまりあるむかしなりけり"@ja ;
+      karuta:imageOfYomi <https://commons.wikimedia.org/wiki/File:Hyakuninisshu_100.jpg> ;
+      karuta:uniqueSyllable "もも"@ja ;
+      karuta:firstHalf "百敷や 古き軒端の しのぶにも"@ja ;
+      karuta:transcriptionOfFirstHalf "ももしきや ふるきのきばの しのぶにも　"@ja ;
+      karuta:secondHalf "なほあまりある 昔なりけり"@ja ;
+      karuta:transcriptionOfSecondHalf "なおあまりある むかしなりけり"@ja ;
+      karuta:bonze "殿"@ja ;
+      dc:source "続後撰集"@ja ;
+      dc:subject "雑"@ja ;
+      dcterms:refenreces <http://linkdata.org/resource/rdf1s6837i#ndl_hishikawa_100>, <http://linkdata.org/resource/rdf1s6838i#ndl_nazorae_100>, <http://linkdata.org/resource/rdf1s6840i#osakaml_utena_100>, <http://linkdata.org/resource/rdf1s6856i#nijl_izumiya_100>, <http://linkdata.org/resource/rdf1s6839i#ndl_shikishi_100>, <http://linkdata.org/resource/rdf1s8472i#ndl_azuma_100>, <http://linkdata.org/resource/rdf1s8473i#ndl_toyokuni_100>, <http://linkdata.org/resource/rdf1s8474i#nijl_sugata_100>, <http://linkdata.org/resource/rdf1s8475i#kyoto_nakanoin_100> ;
+      bf:translation <http://linkdata.org/resource/rdf1s8014i#porter_100>, <http://linkdata.org/resource/rdf1s8015i#clay_100>, <http://linkdata.org/resource/rdf1s8099i#dickins_100>, <http://linkdata.org/resource/rdf1s8100i#noguchi_100> ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
+<http://linkdata.org/resource/rdf1s6834i#ogura_000>
+      <http://www.w3.org/2000/01/rdf-schema#label> "ogura_000"@ja ;
+      karuta:text "難波津に 咲くやこの花 冬ごもり 今を春べと 咲くやこの花"@ja ;
+      karuta:historicalTranscription "なにわづに さくやこのはな ふゆごもり　いまをはるべと さくやこのはな"@ja ;
+      dc:creator "王仁博士"@ja ;
+      dcterms:creator <http://linkdata.org/resource/rdf1s6833i#kajin_000> ;
+      bibo:number "0"@ja ;
+      karuta:firstHalf "難波津に 咲くやこの花 冬ごもり"@ja ;
+      karuta:transcriptionOfFirstHalf "なにわづに さくやこのはな ふゆごもり　"@ja ;
+      karuta:secondHalf "今を春べと 咲くやこの花"@ja ;
+      karuta:transcriptionOfSecondHalf "いまをはるべと さくやこのはな"@ja ;
+      dcterms:isPartOf <http://linkdata.org/resource/rdf1s6836i#ogura> .
+
